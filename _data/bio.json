@@ -9,6 +9,7 @@
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall 2024.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
+      { "network": "github", "username": "mendechris", "url": "http://github.com/changeme" },
       { "network": "github", "username": "mendechris", "url": "http://github.com/mendechris" },
       { "network": "linkedin", "username": "mendechrism", "url": "http://linkedin.com/in/christina-mende" }
     ]
@@ -38,15 +39,6 @@
       "courses": ["ICS 111", "ICS 211", "ICS 212"
       ]
     }
-    {
-      "institution": "University of Hawaii at Manoa, Honolulu, HI",
-      "area": "Mathematics",
-      "studyType": "M.A.",
-      "startDate": "2014-9-01",
-      "endDate": "2016-12-16",
-      "courses": ["MATH 649"
-      ]
-    }    
   ],
   "work": [
     {
@@ -58,28 +50,55 @@
       "summary": "Mathematics Instructor",
       "highlights": [
         "Plan and implement lessons in Mathematics",
-        "Pi-Day Committee Co-Chair: A yearly event to promote interest in Mathematics and Pie"
+        "Pi-Day Committee Co-Chair: A yearly event to promote interest in Mathematics and Pie."
       ]
     },
     {
-      "company": "University of Hawaii at Manoa",
-      "position": "Graduate Assistant",
-      "website": "",
-      "startDate": "2014-07-01",
-      "endDate": "2016-08-01",
-      "summary": "Teaching Assistant for the Mathematics Department",
+      "company": "UH Information Technology Services",
+      "position": "Help Desk Consultant",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-03-15",
+      "summary": "",
       "highlights": [
-        "Graded Assignments and ran Recitation Lessons for Pre-calculus and Calculus courses.",
+        "Troubleshoot software, hardware and networking issues over the phone",
+        "Answer phone and email responses to the ITS Help Desk"
       ]
     }
   ],
- 
+  "volunteer": [
+    {
+      "organization": "Center for Renewable Energy and Island Sustainability",
+      "website": "http://manoa.hawaii.edu/reis",
+      "position": "Software Developer",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "summary": "Lead developer for weather sensing project",
+      "highlights": [
+        "Design firmware for distributed weather sensor network",
+        "Maintain custom data collection and storage infrastructure"
+      ]
+    },
+    {
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Chair, ACM Manoa, 2016-Present",
+        "Member, IEEE Student Branch, 2014-Present",
+        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+      ]
+    }
+  ],
   "awards": [
     {
-      "title": "Kern-Clark Award for Outstanding Undergraduate Work in Mathematics ",
-      "date": "2013",
-      "awarder": "University of Hawaii Mathematics Dept",
-      "summary": "The Mathematics Department gives an undergraduate award each year prior to commencement, the Kern-Clark Award. The department gives these awards to undergraduates whose performance in their mathematics classes has been outstanding. "
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
       "title": "First place",
