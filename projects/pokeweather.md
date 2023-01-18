@@ -41,7 +41,7 @@ Here is some code that illustrates how we categorized weather type based on the 
         <% current_weather = type if code.include?(weatherID) %>
       <% end %>
 
-      <!-- Wind takes precedence over these https://www.reddit.com/r/TheSilphRoad/comments/amb4ki/predicting_ingame_weather_yes_you_can/-->  
+      <!-- Wind takes precedence over these -->  
       <% if ((current_weather == "Clear" || current_weather == "Overcast" || current_weather == "Partly Cloudy") && wind >= 55) %>
         <% current_weather = "Windy" %>
       <% end %>
