@@ -18,9 +18,7 @@ This semester isn’t the first time I’ve learned Javascript through FreeCodeC
 
 I did learn a few new concepts in the ES6 reading section.  The methods to iterate over arrays and objects without having to use the array indices is a nice feature that I'm sure will be useful in the future.
 
-One of the features I like about Javascript is the dynamic type checking. It is very convenient to be able to declare variables with ```let``` or ```const``` without having to worry about explicitly including the data type. Additionally, the ability to return multiple data types for a function allows for flexibility, unlike Java.
-
-Of course, I could see how this flexibility could be a disadvantage. For example, it would be very easy to change a variable that's initially an array into an integer which could accidentally break your program.
+One of the features I like about Javascript is the dynamic type checking. It is very convenient to be able to declare variables with ```let``` or ```const``` without having to worry about explicitly including the data type. Additionally, the ability to return multiple data types for a function allows for flexibility, unlike Java. Of course, I could see how this flexibility could be a disadvantage. For example, it would be very easy to change a variable that's initially an array into an integer which could accidentally break your program.
 
 ## Javascript for Software Engineering
 
