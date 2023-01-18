@@ -11,7 +11,6 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/essays/woman-coding.png">
 
-*What's the difference between Java and Javascript?*
 
 ## The Start of It All
 
@@ -21,11 +20,11 @@ My first experience with programming was in 2011, when I took Introduction to Co
 
 ## Javascript Impressions: Then and Now
 
-This semester isn’t the first time I’ve learned Javascript through FreeCodeCamp. I needed a crash course in Javascript basics to participate in a hackathon and it was the best option. Having started with Java, I found the transition to be very easy. The keywords may have been different but the logic was the same.
+This semester isn’t the first time I’ve learned Javascript through FreeCodeCamp. I needed a crash course in Javascript basics to participate in a hackathon and it was the best option I had found. Having started with Java, I found the transition to be very easy. The commands may have been slightly different but the logic was the same.
 
-Unfortunately, I hadn’t done much with Javascript after the event and had forgotten the exact syntax. Fortunately, Javascript is not too difficult to relearn when compared with C, C++, or Java. 
+Since I hadn’t done much with Javascript after the hackathon event, I did forget the exact syntax for some of the tasks. Luckily, Javascript is not too difficult to relearn when compared with C, C++, or Java. 
 
-One of the features I like about Javascript is the dynamic type checking. It is very convenient to be able to return multiple data types for a function than to be limited to one type.  
+One of the features I like about Javascript is the dynamic type checking. It is very convenient to be able to declare variables with ```let``` or ```const``` without having to worry about explicitly including the data type. Furthermore this allows us to return multiple data types for a function than to be limited. 
 
 ## In the context of relationships
 
