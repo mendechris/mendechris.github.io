@@ -16,7 +16,7 @@
   "interests": [
     { "name": "Software Development" },
     { "name": "Mathematics" },
-    { "name": "Calligraphy" },
+    { "name": "Data Science" },
   ],
   "skills": [
     {
@@ -33,18 +33,18 @@
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
       "area": "Computer Science (expected Fall, 2024)",
       "studyType": "B.S.",
-      "startDate": "2022-08-18",
+      "startDate": "2022-08-22",
       "endDate": "Present",
-      "courses": ["ICS 111", "ICS 211", "ICS 212"
+      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241"
       ]
     },
     {
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2024)",
-      "studyType": "B.S.",
-      "startDate": "2022-08-18",
-      "endDate": "Present",
-      "courses": ["ICS 111", "ICS 211", "ICS 212"
+      "area": "Mathematics",
+      "studyType": "M.A.",
+      "startDate": "2014-08-25",
+      "endDate": "2016-12-17",
+      "courses": ["MATH 611", "MATH 631", "MATH 612", "MATH 644", "MATH 603", "MATH 649T", "MATH 633", "MATH 699"
       ]
     }
   ],
@@ -76,7 +76,7 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
+      "title": "Kern-Clark Memorial Award",
       "date": "2013-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
