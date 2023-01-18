@@ -61,25 +61,27 @@
     {
       "company": "Leeward Community College",
       "position": "Instructor",
-      "website": "",
       "startDate": "2016-08-01",
       "endDate": "Present",
       "summary": "Mathematics Instructor",
       "highlights": [
         "Plan and implement lessons in Mathematics",
+        "Applied various teaching aids to instruct and motivate students",
+        "Used learning assessments to regularly monitor student understanding and class concepts",
         "Pi-Day Committee Co-Chair: A yearly event to promote interest in Mathematics and Pie."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "University of Hawaii at Manoa",
+      "position": "Graduate Teaching Assistant",
+      "startDate": "2014-07-01",
+      "endDate": "2016-08-01",
+      "summary": "Teaching Assistant for the Mathematics Department",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Checked assignments, proctored exams, and graded assignments according to university standards",
+        "Prepared lessons according to course learning outcomes to teach required material",
+        "Taught small groups of students (recitations) focused on specific parts of their corresponding class."
+        
       ]
     }
   ],
