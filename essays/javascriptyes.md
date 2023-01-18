@@ -11,7 +11,7 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+*What's the difference between JAVA and Javascript?*
 
 Something about javascript reflection
 
