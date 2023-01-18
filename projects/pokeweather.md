@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/poke-weather-square.jpg
 title: "Pokemon Weather App "
 date: 2022
 published: true
