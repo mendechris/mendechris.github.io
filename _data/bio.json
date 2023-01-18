@@ -7,9 +7,8 @@
     "phone": "626-470-7640",
     "website": "https://mendechris.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": {"postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mendechris", "url": "http://github.com/changeme" },
       { "network": "github", "username": "mendechris", "url": "http://github.com/mendechris" },
       { "network": "linkedin", "username": "mendechrism", "url": "http://linkedin.com/in/christina-mende" }
     ]
@@ -26,10 +25,19 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Git/GitHub", "g++" ]
+      "keywords": [ "MacOS", "g++" ]
     }
   ],
   "education": [
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Fall, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2022-08-18",
+      "endDate": "Present",
+      "courses": ["ICS 111", "ICS 211", "ICS 212"
+      ]
+    }
     {
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
       "area": "Computer Science (expected Fall, 2024)",
