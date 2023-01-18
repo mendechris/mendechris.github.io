@@ -44,7 +44,16 @@
       "studyType": "M.A.",
       "startDate": "2014-08-25",
       "endDate": "2016-12-17",
-      "courses": ["MATH 611", "MATH 631", "MATH 612", "MATH 644", "MATH 603", "MATH 649T", "MATH 633", "MATH 699"
+      "courses": ["MATH 412", "MATH 413", "MATH 431", "MATH 432", "MATH 611", "MATH 631", "MATH 612", "MATH 644", "MATH 603", "MATH 649T", "MATH 633", "MATH 699"
+      ]
+    },
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Mathematics",
+      "studyType": "B.A.",
+      "startDate": "2013-08-25",
+      "endDate": "2013-05-11",
+      "courses": ["MATH 311", "MATH 402", "MATH 321", "MATH 403", "MATH 420", "MATH 302", "MATH 471", "MATH 331", "MATH 411", "MATH 480"
       ]
     }
   ],
