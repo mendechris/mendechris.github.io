@@ -9,7 +9,7 @@ labels:
   - Javascript
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="..img/essays/woman-coding.png">
+<img width="200px" class="rounded float-start pe-4" src="https://github.com/mendechris/mendechris.github.io/blob/2830e5ec7f47d2ea11df8f6087c3be4b4704ba59/img/essays/woman-coding.png">
 
 *What's the difference between Java and Javascript?*
 
