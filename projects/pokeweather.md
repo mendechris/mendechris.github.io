@@ -48,4 +48,4 @@ Here is some code that illustrates how we categorized weather type based on the 
       <% end %>
 ```
 
-You can learn more about the hackathon at [STEM Warriors Hacks](https://manoa.hawaii.edu/news/article.php?aId=2857](https://stemwarriorhacks-winter.devpost.com/)).
+You can learn more about the hackathon at [STEM Warriors Hacks](https://stemwarriorhacks-winter.devpost.com/).
