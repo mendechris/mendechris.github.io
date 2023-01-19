@@ -11,7 +11,6 @@ labels:
   - HTML
 summary: "My team developed a Pokemon Go Weather App to complement the Pokemon Go game app for the Winter STEM Warrior Hacks Hackathon."
 ---
-# Pokemon Weather App
 
 <div class="text-center p-4">
   <img width="200px" src="../img/projects/pw1.png" class="img-thumbnail" >
