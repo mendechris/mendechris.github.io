@@ -11,6 +11,7 @@ labels:
   - HTML
 summary: "My team developed a Pokemon Go Weather App to complement the Pokemon Go game app for the Winter STEM Warrior Hacks Hackathon."
 ---
+# Pokemon Weather App
 
 <div class="text-center p-4">
   <img width="200px" src="../img/projects/pw1.png" class="img-thumbnail" >
@@ -22,6 +23,7 @@ STEM Warrior Hacks (Winter) is an international student-run hackathon open to an
 
 For this project, I  was responsible for the backend (server-side) code. I used OpenWeatherMap API to access relevant weather data for each zip code . I also used PoGo API and PokeApi to retrieve information related to each Pokemon's data such as type, move set, and stats. 
 
+## What I learned
 Prior to this hackathon I had little-to-no experience with developing a web app. In order to contribute to this project, I learned basic HTML and CSS through CodeAcademy and Javascript through FreeCodeCamp. 
 
 Here is some code that illustrates how we categorized weather type based on the ID retrieved by the OpenWeatherAPI:
