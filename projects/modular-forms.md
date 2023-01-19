@@ -12,7 +12,7 @@ summary: "M.A. in Mathematics Presentation"
 ---
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/projects/modformstheorem1.png" class="img-thumbnail" >
+  <img width="400px" src="../img/projects/modforms.png" class="img-thumbnail" >
 </div>
 
 In addition to fulfilling the course and credit requirements, the University of Hawaii's M.A. in Mathematics program also requires a written paper whose contents are presented to the public. 
