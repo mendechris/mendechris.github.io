@@ -7,12 +7,14 @@ date: 2023-01-18
 published: true
 labels:
   - Javascript
+  - Reflection
+  - Software Engineering
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/essays/woman-coding.png">
 
 
-## Javascript Impressions:
+## Javascript Impressions
 
 This semester isn’t the first time I’ve learned Javascript through FreeCodeCamp. I started the Javascript section about a year ago when I needed a crash course in Javascript basics to participate in a hackathon. Since Java was my first programming language, I found the transition to Javascript was easy. The commands may have been slightly different but the logic was the same. 
 
@@ -26,7 +28,7 @@ I don't like to label tools like language as 'good' or 'bad' since every languag
 
 ## WOD WAR I 
 
-Prior to this class, I had never heard of Athletic Software Engineering. In Theory, it sounds
+Prior to this class, I had never heard of Athletic Software Engineering (ASE). After reading Dr. Johnson's essay on the subject, 
 
 ## Okay!
 
