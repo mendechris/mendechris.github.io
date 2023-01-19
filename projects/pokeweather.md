@@ -48,4 +48,4 @@ Here is some code that illustrates how we categorized weather type based on the 
       <% end %>
 ```
 
-You can learn more about the hackathon at [STEM Warriors Hacks](https://stemwarriorhacks-winter.devpost.com/).
+You can learn more about this hackathon submission at [Devpost](https://devpost.com/software/pokemon-weather-app).
