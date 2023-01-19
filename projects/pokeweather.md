@@ -21,6 +21,7 @@ STEM Warrior Hacks (Winter) is an international student-run hackathon open to an
 
 For this project, I  was responsible for the backend (server-side) code. I used OpenWeatherMap API to access relevant weather data for each zip code . I also used PoGo API and PokeApi to retrieve information related to each Pokemon's data such as type, move set, and stats. 
 
+Prior to this hackathon I had little-to-no experience with developing a web app. In order to contribute to this project, I learned basic HTML and CSS through CodeAcademy and Javascript through FreeCodeCamp. 
 
 Here is some code that illustrates how we categorized weather type based on the ID retrieved by the OpenWeatherAPI:
 
