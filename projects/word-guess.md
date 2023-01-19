@@ -30,10 +30,34 @@ As a personal goal and to get back into programming, I spent the summer learning
 
 
 ## What I learned
-This game was created to practice Ruby
+For this program, I learned about simple game design and how to implement functions in Ruby to perform various tasks.
 
-
+Below is a short snippet of code for error-checking the user's input:
 ```ruby
+
+#check to make sure that user entered appropriate guesses. Loops if otherwise.
+def inputcheck(guess,letter_track)
+  guess = gets.chomp
+  while !Alphabet.include?(guess)
+    puts "Invalid input"
+    puts
+    print "Please choose a letter: "
+    guess = gets.chomp
+  end
+  if !is_include?(letter_track,guess)
+    letter_track << guess + " "
+  else
+    while is_include?(letter_track,guess) || !Alphabet.include?(guess)
+      puts
+      this = !Alphabet.include?(guess)? "Invalid input" : "You have already guessed this letter. "
+      puts this
+      print "Please try a different guess: "
+      guess = gets.chomp
+    end
+    letter_track << guess + " "
+  end
+  guess
+end
 
 ```
 
