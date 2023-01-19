@@ -26,10 +26,12 @@ One of the features I like about Javascript is the dynamic type checking. It is 
 
 I don't like to label tools like language as 'good' or 'bad' since every language was useful at some point. From my limited experience, I think that Javascript is an extremely useful programming language for software engineering. Because of its prevalence in the Tech Industry, there are many frameworks that use Javascript; it is much easier to work with a language that has an extensive library than to work with one that is not as well-supported. Javascript is also useful because it can be used to manipulate the Document Object Model (DOM) which allows us to dynamically access data and update pages as needed. 
 
-## WOD WAR I 
+## WOD Is This All For?
 
-Prior to this class, I had never heard of Athletic Software Engineering (ASE). After reading Dr. Johnson's essay on the subject, 
+Prior to this class, I had never heard of Athletic Software Engineering (ASE). After reading Dr. Johnson's essay on the subject, my initial reaction was apprehension. "High-Intensity" and "Stress-inducing" are not usually descriptors of things that I enjoy. However, I can appreciate the reason for the ASE approach. Reading about programming is certainly not the same as actually programming and using WODs to build competency makes sense.
 
-## Okay!
+I find the practice WODs to be very useful. While the stakes are not as high, the practice WODs have allowed me to acclimate to the expectations of the in-class WODs. Additionally, it is helpful to have a tool to assess what I do (or don't) know. 
 
-something about this class style
+## Final Thoughts
+
+While I am more accustomed to the traditional teaching approach, I believe that ASE will be much more beneficial for this class. It is definitely stressful, but performing well under stressful conditions will make my accomplishments all the more enjoyable.
