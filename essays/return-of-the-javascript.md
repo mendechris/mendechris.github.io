@@ -22,11 +22,11 @@ One of the features I like about Javascript is the dynamic type checking. It is 
 
 ## Javascript: Need to Know
 
-I don't like to label tools like language as 'good' or 'bad' since every language was useful at some point. From my limited experience, I think that Javascript is an extremely useful programming language for software engineering. Because of its prevalence in the Tech Industry, there are many frameworks that use Javascript; it is much easier to work with a language that has an extensive library than to work with one that is not as well-supported. Javascript is useful because it can be used to manipulate the Document Object Model (DOM). This allows us to dynamically access and update pages as needed.
+I don't like to label tools like language as 'good' or 'bad' since every language was useful at some point. From my limited experience, I think that Javascript is an extremely useful programming language for software engineering. Because of its prevalence in the Tech Industry, there are many frameworks that use Javascript; it is much easier to work with a language that has an extensive library than to work with one that is not as well-supported. Javascript is also useful because it can be used to manipulate the Document Object Model (DOM) which allows us to dynamically access data and update pages as needed. 
 
 ## WOD WAR I 
 
-Something about athletic programming
+Prior to this class, I had never heard of Athletic Software Engineering. In Theory, it sounds
 
 ## Okay!
 
