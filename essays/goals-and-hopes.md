@@ -4,7 +4,7 @@ type: essay
 title: "My Goals and Hopes for a Future in Software Engineering "
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-18
-published: true
+published: false
 labels:
   - Reflection
   - Software Engineering
