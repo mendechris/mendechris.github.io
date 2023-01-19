@@ -7,8 +7,7 @@ date: 2021
 published: true
 labels:
   - Ruby
-  - Javascript
-  - HTML
+  - Text-Based Game
 summary: "A Hangman-inspired text game using Ruby"
 ---
 
@@ -16,7 +15,12 @@ summary: "A Hangman-inspired text game using Ruby"
   <img width="400px" src="../img/projects/hangman2.png" class="img-thumbnail" >
 </div>
 
-As a personal goal and to get back into programming, I spent the summer learning how to code using Ruby through App Academy Open. To get more practice, I was challenged by a friend to create this Hangman-inspired game. The game has a simple interface and is run through a Command Line Interface. It implements the knowledge I had learned in Ruby to complete several tasks:
+As a personal goal and to get back into programming, I spent the summer learning how to code using Ruby through App Academy Open. To get more practice, I was challenged by a friend to create this Hangman-inspired game. The game has a simple interface and is run through a Command Line Interface. 
+
+## What I learned
+For this program, I learned about simple game design.
+
+It also implements the knowledge I had learned in Ruby to complete several tasks:
 
 1. Have three levels of difficulty
 2. Allow for multiple rounds of the game until user quits
@@ -27,10 +31,6 @@ As a personal goal and to get back into programming, I spent the summer learning
   <img width="400px" src="../img/projects/hangman3.png" class="img-thumbnail" >
   <img width="400px" src="../img/projects/hangman4.png" class="img-thumbnail" >
 </div>
-
-
-## What I learned
-For this program, I learned about simple game design and how to implement functions in Ruby to perform various tasks.
 
 Below is a short snippet of code for error-checking the user's input:
 ```ruby
