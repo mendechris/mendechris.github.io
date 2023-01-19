@@ -10,7 +10,7 @@ labels:
   - Number Theory
 summary: "M.A. in Mathematics Presentation"
 ---
-# A Modular Forms Approach to Arithmetic Convoluted Identities
+
 <div class="text-center p-4">
   <img width="450px" src="../img/projects/modforms.png" class="img-thumbnail" >
 </div>
