@@ -13,9 +13,9 @@ summary: "A Hangman-inspired text game using Ruby"
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/projects/hangman2.png" class="img-thumbnail" >
-  <img width="200px" src="../img/projects/hangman3.png" class="img-thumbnail" >
-  <img width="200px" src="../img/projects/hangman4.png" class="img-thumbnail" >
+  <img width="400px" src="../img/projects/hangman2.png" class="img-thumbnail" >
+  <img width="400px" src="../img/projects/hangman3.png" class="img-thumbnail" >
+  <img width="400px" src="../img/projects/hangman4.png" class="img-thumbnail" >
 </div>
 
 As a personal goal and to get back into programming, I spent the summer learning how to code using Ruby through App Academy Open. To get more practice, I was challenged by a friend to create this Hangman-inspired game. The game has a simple interface and is run through a Command Line Interface. It implements the knowledge I had learned in Ruby to complete several tasks:
