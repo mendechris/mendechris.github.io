@@ -59,7 +59,10 @@ average number of passengers per flight } "
 This is the input:
 3 WizzAir 180 230 100 Finish BulgariaAir 50 60 90 Finish Lufthansa 260 320 Finish
 
-This is the output:<br> WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthansa: 290 passengers. Lufthansa has the most passengers per flight: 290
+This is the output:
+WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthansa: 290 passengers. 
+Lufthansa has the most passengers per flight: 290
+
 This is my code:
 ```
 
