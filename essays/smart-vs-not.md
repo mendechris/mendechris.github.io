@@ -16,8 +16,8 @@ labels:
 Credit: [Randall Munroe at XKCD](https://xkcd.com/2658/)
 
 ## The goal
+Most of the time when we ask question, the goal is to get an answer. Or is it? A useless answer wouldn't help. We'd be in the same position as if we didn't ask at all. Take the above comic, for example, we are presented with four legitimate answers, but which one is actually useful to the asker? As presented above, the question is much too broad and doesn't give any insight as to why the question is being asked. What's the end goal of knowing how many holes there are in a coffee cup?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
 
 ## Getting What You Need
 
