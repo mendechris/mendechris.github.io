@@ -4,7 +4,7 @@ type: essay
 title: "Smart vs. Not-so-Smart Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-26
-published: true
+published: false
 labels:
   - Questions
   - Answers
@@ -17,8 +17,9 @@ labels:
 Credit: [Randall Munroe at XKCD](https://xkcd.com/2658/)
 
 ## The goal
-Most of the time when we ask a question, the goal is to get an answer. Or is it? A useless answer wouldn't help. We'd be in the same position as if we didn't ask at all. Take the above comic, we are presented with four legitimate answers, but which one is actually useful to the asker? As presented above, the question is much too broad and doesn't give any insight as to why the question is being asked. What's the end goal of knowing how many holes there are in a coffee cup?
+Most of the time when we ask a question, the goal is to get an answer. Of course, a useless answer wouldn't help. We'd be in the same position as if we didn't ask at all. Take the above comic, we are presented with four legitimate answers, but which one is actually useful? As presented above, the question is much too broad and doesn't give any insight as to why the question is being asked. This just makes it more difficult for the reader to properly answer the question.
 
+While the coffee-cup question may be silly, there are many similar ambiguous questions all over StackOverflow. Nowadays, these questions don't stay up for very long and any answers they receive are likely unuseful. 
 
 ## Getting What You Need
 
