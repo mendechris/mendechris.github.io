@@ -12,7 +12,7 @@ labels:
 ---
 
 
-<img width="300px" class="rounded float-start pe-4" src="../essays/img/essay02/coffee_cup_holes.png">
+<img width="500px" class="img-thumbnail" src="../essays/img/essay02/coffee_cup_holes.png">
 Credit: [Randall Munroe at XKCD](https://xkcd.com/2658/)
 
 ## The goal
