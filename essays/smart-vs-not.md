@@ -42,32 +42,22 @@ A recent example of a not-so-smart "question" had a user asking for help on thei
 
 <blockquote>
 
-Question: I need help for a simple java task
+**Question:** I need help for a simple java task<br><br>
  
 I am taking a java course online and I need a solution for one task. This is the condition:
- 
-Write a program that tracks the average number of passengers per flight for each airline . 
-Every day there are a certain number of airlines that have flights . Until the " Finish " command is received, 
-you receive the number of passengers per flight . You need to calculate the average number of passengers per 
-airline flight ( rounded to the smallest whole number ). Login : Initially, the number of airlines is read from 
-the console - an integer in the interval [1… 20] Then read for each airline : • Airline name - text • " Finish " 
-command is received, it reads : o Number of passengers per flight – an integer in the range [1... 360] 
-Output : After reading all the passengers of a given company, one line is printed on the console : • "{ airline name }: 
-{ average number of passengers per flight } passengers." After all flights of all airlines have taken off, one line 
-is printed : • "{ the name of the airline with the most passengers per flight } has most passengers per flight: { the 
-average number of passengers per flight } "
+
+Write a program that tracks the average number of passengers per flight for each airline . Every day there are a certain number of airlines that have flights . Until the " Finish " command is received, you receive the number of passengers per flight . You need to calculate the average number of passengers per airline flight ( rounded to the smallest whole number ). Login : Initially, the number of airlines is read from the console - an integer in the interval [1… 20] Then read for each airline : • Airline name - text • " Finish " command is received, it reads : o Number of passengers per flight – an integer in the range [1... 360] Output : After reading all the passengers of a given company, one line is printed on the console : • "{ airline name }: { average number of passengers per flight } passengers." After all flights of all airlines have taken off, one line is printed : • "{ the name of the airline with the most passengers per flight } has most passengers per flight: { the average number of passengers per flight } "
 
 This is the input:
+
 3 WizzAir 180 230 100 Finish BulgariaAir 50 60 90 Finish Lufthansa 260 320 Finish
 
-This is the output:
-WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthansa: 290 passengers. 
-Lufthansa has the most passengers per flight: 290
+This is the output: WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthansa: 290 passengers. Lufthansa has the most passengers per flight: 290
 
 This is my code:
 </blockquote>
 
-```
+```Java
 Scanner scanner = new Scanner(System.in);
 
     int n = Integer.parseInt(scanner.nextLine());
@@ -96,9 +86,8 @@ Scanner scanner = new Scanner(System.in);
 
 
     }
-
-Thank you for the help.
 ```
+<blockquote>Thank you for the help. </blockquote>
 
 [See Original Question at StackOverFlow](https://stackoverflow.com/revisions/75189194/1)
 
