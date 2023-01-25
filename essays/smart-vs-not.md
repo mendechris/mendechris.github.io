@@ -40,21 +40,10 @@ Something
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart question had a user asking for help on their Java program.
 
-```
 
-Question: I need help for a simple java program
+> Question: I need help for a simple java program <br><br>I need help with this java program. The task is to write a program that receives n number of flight companies and after that until the command "Finish" to receive passengers for each company. At the end of the program, the result should be the name of each company and the average number of passengers for that company. Also, have to print the name of the company which has the most passengers. I figured out how to print the name of every company and the average number of passengers per flight but in the end, I don't know how to print the name of the company which has the most passengers. In my case, the name of the company with the most passengers is the last integer instead of the company name. <br><br>This is my code:
 
-I need help with this java program. The task is to write a program that receives n number of 
-flight companies and after that until the command "Finish" to receive passengers for each company. 
-At the end of the program, the result should be the name of each company and the average number of
-passengers for that company. Also, have to print the name of the company which has the most passengers. 
-I figured out how to print the name of every company and the average number of passengers per flight but 
-in the end, I don't know how to print the name of the company which has the most passengers. In my case, 
-the name of the company with the most passengers is the last integer instead of the company name.
-
-This is my code:
-
-Scanner scanner = new Scanner(System.in);
+```Scanner scanner = new Scanner(System.in);
 
 int n = Integer.parseInt(scanner.nextLine());
     String companyName = "";
@@ -110,6 +99,7 @@ int n = Integer.parseInt(scanner.nextLine());
     }
     System.out.printf("%s has most passengers per flight: %d", topCompany, mostPeople);
 ```
+[Question at StackOverFlow](https://stackoverflow.com/questions/75189194/i-need-help-for-a-simple-java-program)
 
 ## Conclusion
 
