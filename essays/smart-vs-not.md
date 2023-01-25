@@ -13,6 +13,7 @@ labels:
 
 
 <img width="500px" class="img-thumbnail" src="../essays/img/essay02/coffee_cup_holes.png">
+
 Credit: [Randall Munroe at XKCD](https://xkcd.com/2658/)
 
 ## The goal
