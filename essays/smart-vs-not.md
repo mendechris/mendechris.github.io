@@ -77,9 +77,11 @@ Scanner scanner = new Scanner(System.in);
 
 [See Original Question at StackOverFlow](https://stackoverflow.com/revisions/75189194/1)
 
-There are several issues with the above post. At the time of this posting, the question had received no answers and had been marked closed due to lack of detail. First, the header is vague. 
+There are several issues with the above post. At the time of this posting, the question had received no answers and had been marked closed due to lack of detail. 
 
-Second, The formatting of the post also made it very difficult to read, which likely added to the frustration of readers.
+The first issue issue is that the header is vague. Eric Raymond, creator of the "How to Ask Questions The Smart Way" document notes that writing subject lines such as "Please help me" is a wasted opportunity.
+
+The second issue is the formatting of the post. The wall of text with odd bulleting made it very difficult to read, which likely added to the frustration of readers.
 
 Third, while the user did provide some code for their attempt, they did not include any explanation as to what issues they had run into. Really, there wasn't an actual question for anyone to answer. 
 
