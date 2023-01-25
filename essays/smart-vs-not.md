@@ -40,7 +40,8 @@ Something
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart "question" had a user asking for help on their Java program.
 
-```
+<blockquote>
+
 Question: I need help for a simple java task
  
 I am taking a java course online and I need a solution for one task. This is the condition:
@@ -64,7 +65,7 @@ WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthansa: 290 passengers.
 Lufthansa has the most passengers per flight: 290
 
 This is my code:
-```
+</blockquote>
 
 ```
 Scanner scanner = new Scanner(System.in);
