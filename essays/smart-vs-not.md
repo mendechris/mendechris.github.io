@@ -47,8 +47,11 @@ I need help with this java program. The task is to write a program that receives
 This is my code:
 
 Scanner scanner = new Scanner(System.in);
-`
-    int n = Integer.parseInt(scanner.nextLine());
+
+```
+
+```
+int n = Integer.parseInt(scanner.nextLine());
     String companyName = "";
     int sum = 0;
     int counter = 0;
@@ -101,10 +104,7 @@ Scanner scanner = new Scanner(System.in);
 
     }
     System.out.printf("%s has most passengers per flight: %d", topCompany, mostPeople);
-`
-
 ```
-
 
 
 ## Conclusion
