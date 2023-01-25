@@ -38,68 +38,55 @@ Something
  
 
 ## Stack Overflow Can't Find the Question.
-A recent example of a not-so-smart question had a user asking for help on their Java program.
+A recent example of a not-so-smart "question" had a user asking for help on their Java program.
 
 
-> Question: I need help for a simple java program <br><br>I need help with this java program. The task is to write a program that receives n number of flight companies and after that until the command "Finish" to receive passengers for each company. At the end of the program, the result should be the name of each company and the average number of passengers for that company. Also, have to print the name of the company which has the most passengers. I figured out how to print the name of every company and the average number of passengers per flight but in the end, I don't know how to print the name of the company which has the most passengers. In my case, the name of the company with the most passengers is the last integer instead of the company name. <br><br>This is my code:
+> Question: I need help for a simple java task <br><br>I am taking a java course online and I need a solution for one task. This is the condition:<br><br>Write a program that tracks the average number of passengers per flight for each airline . Every day there are a certain number of airlines that have flights . Until the " Finish " command is received, you receive the number of passengers per flight . You need to calculate the average number of passengers per airline flight ( rounded to the smallest whole number ). Login : Initially, the number of airlines is read from the console - an integer in the interval [1… 20] Then read for each airline : • Airline name - text • " Finish " command is received, it reads : o Number of passengers per flight – an integer in the range [1... 360] Output : After reading all the passengers of a given company, one line is printed on the console : • "{ airline name }: { average number of passengers per flight } passengers." After all flights of all airlines have taken off, one line is printed : • "{ the name of the airline with the most passengers per flight } has most passengers per flight: { the average number of passengers per flight } "<br><br>This is the input:<br>3 WizzAir 180 230 100 Finish BulgariaAir 50 60 90 Finish Lufthansa 260 320 Finish<br><br>This is the output:<br> WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthansa: 290 passengers. Lufthansa has the most passengers per flight: 290<br><br>This is my code:
 
-```Scanner scanner = new Scanner(System.in);
+```
+Scanner scanner = new Scanner(System.in);
 
-int n = Integer.parseInt(scanner.nextLine());
+    int n = Integer.parseInt(scanner.nextLine());
     String companyName = "";
-    int sum = 0;
-    int counter = 0;
-    String topCompany = "";
-    int mostPeople = 0;
-
 
     for (int i = 0; i < n; i++) {
-        int maxNumber = 0;
 
         String input = scanner.nextLine();
         companyName = input;
-        char symbol = companyName.charAt(0);
-        boolean isSymbol = false;
 
-                if (symbol>=65 && symbol<=90){
-                    isSymbol = true;
-                }
-
-                if (isSymbol){
-                    topCompany = companyName;
-                }
-
-        while (!input.equals("Finish")) {
+        double sum = 0;
 
 
-            if (sum > maxNumber) {
-                maxNumber = sum / counter;
-                mostPeople = maxNumber;
-
-
-
-            }
-
+        while (true) {
             input = scanner.nextLine();
 
-
             if (input.equals("Finish")) {
+                System.out.printf("%s: %d passengers.%n", companyName, Math.round(sum / n));
+                sum = 0;
                 break;
             }
+
             int people = Integer.parseInt(input);
-            counter++;
             sum += people;
         }
 
-        System.out.println(companyName);
-        System.out.println(sum / counter);
-        counter = 0;
-        sum = 0;
 
     }
-    System.out.printf("%s has most passengers per flight: %d", topCompany, mostPeople);
 ```
-[Question at StackOverFlow](https://stackoverflow.com/questions/75189194/i-need-help-for-a-simple-java-program)
+> Thank you for the help.
+
+[See Original Question at StackOverFlow](https://stackoverflow.com/revisions/75189194/1)
+
+There are several issues with the above post. At the time of this posting, the question had received no answers and had been marked closed due to lack of detail. First, the header is vague. 
+
+Second, The formatting of the post also made it very difficult to read, which likely added to the frustration of readers.
+
+Third, while the user did provide some code for their attempt, they did not include any explanation as to what issues they had run into. Really, there wasn't an actual question for anyone to answer. 
+
+One the commenters stated:
+> You've posted broad requirements and unexplained code but have not yet asked a specific on-topic question. How is your current code misbehaving? What specifically are you confused or stuck on? Please edit and improve your post to help make it both easier to answer and more appropriate for this site. The How to Ask and How do I ask and answer Homework questions links can help guide you in this task.<br> Also, start by fixing your question title. We already know that you "need help for a task", why else would you be posting a question here? Your title should summarize your actual problem statement, not your plight.
+
+
 
 ## Conclusion
 
