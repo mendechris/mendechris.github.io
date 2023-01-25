@@ -38,7 +38,7 @@ Something
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart question had a user asking for help on their Java program.
 
-```
+````
 
 Question: I need help for a simple java program
 
@@ -48,9 +48,7 @@ This is my code:
 
 Scanner scanner = new Scanner(System.in);
 
-```
-
-```
+```java
 int n = Integer.parseInt(scanner.nextLine());
     String companyName = "";
     int sum = 0;
@@ -105,7 +103,7 @@ int n = Integer.parseInt(scanner.nextLine());
     }
     System.out.printf("%s has most passengers per flight: %d", topCompany, mostPeople);
 ```
-
+````
 
 ## Conclusion
 
