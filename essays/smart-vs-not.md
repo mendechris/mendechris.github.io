@@ -67,6 +67,9 @@ pressure and humidity for every hour available. Thank you
 
 
 ```
+
+[View question on StackOverflow](https://stackoverflow.com/questions/55253260/python-accessing-json-element)
+
 Here, the header could have been a bit more specific. For example, they could have written "Python - Accessing DarkSky API JSON element" This would be much less generic and direct others with similar questions to this topic. Furthermore, the user could have cleaned up the grammatical errors in the question.
 
 The user is courteous and does a great job at explaining the desired outcome. The question is explicitly stated. Additionally, they include all of the data that is pulled so that readers do not have to complete the request themselves. The user also shows what they have tried and the outcome of their attempt. 
@@ -74,7 +77,6 @@ The user is courteous and does a great job at explaining the desired outcome. Th
 The user subsquently received two answers to their question and commented that one of the answers directly solved their problem. This question highlights the good outcomes that can come from asking a smart question.
 
 
- [View question on StackOverflow](https://stackoverflow.com/questions/55253260/python-accessing-json-element)
 
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart "question" is from a user asking for help on their Java program.
