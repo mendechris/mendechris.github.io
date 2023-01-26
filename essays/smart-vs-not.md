@@ -17,7 +17,7 @@ labels:
 Credit: [Randall Munroe at XKCD](https://xkcd.com/2658/)
 
 ## The goal
-Most of the time when we ask a question, the goal is to get an answer. Of course, not every answer is helpful. If the only answer was a useless one, we'd be in the same position as if we didn't ask the question at all. 
+Most of the time when we ask a question, the goal is to get an answer. Of course, not every answer is helpful. If the only answer to a question was a useless one, there would be no point in asking the question at all.
 
 Take the above comic, we are presented with four legitimate answers, but which one is actually useful? As presented above, the question is much too broad and doesn't give any insight as to why the question is being asked. This just makes it more difficult for the reader to properly answer the question.
 
