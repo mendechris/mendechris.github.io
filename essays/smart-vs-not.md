@@ -40,7 +40,7 @@ Something
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart "question" is from a user asking for help on their Java program.
 
----
+
 **Question: I need help for a simple java task**<br><br>
  
 I am taking a java course online and I need a solution for one task. This is the condition:
@@ -89,7 +89,7 @@ Scanner scanner = new Scanner(System.in);
 
 Thank you for the help.
 
----
+
 
 [See Original Question at StackOverFlow](https://stackoverflow.com/revisions/75189194/1)
 
