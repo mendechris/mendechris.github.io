@@ -148,8 +148,7 @@ One of the commenters stated, "You've posted broad requirements and unexplained 
 At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The chastisement and lack of relevant responses highlights the issues with this not-so-smart question. 
 
 ## Conclusion
-Being able to ask smart questions in order to get relevant answers is an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all.
- 
+Being able to ask smart questions in order to get relevant answers is an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all. For a website like Stack Overflow, it is good practice to be courteous, make the question clear, and to show them your own attempts at a solution. This effort shows respect to the community and increase the likelihood of receiving helpful answers.
 
 
 
