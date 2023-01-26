@@ -17,15 +17,15 @@ labels:
 Credit: [Randall Munroe at XKCD](https://xkcd.com/2658/)
 
 ## The goal
-Most of the time when we ask a question, the goal is to get an answer. Of course, not every answer is helpful. If the only answer to a question was a useless one, there would be no point in asking the question at all.
+Most of the time when we ask a question, the goal is to get an answer. Of course, not every answer is helpful. If the only answer to a question was a useless one, there would be no point in asking the question in the first place.
 
-Take the above comic, we are presented with four legitimate answers, but which one is actually useful? As presented above, the question is much too broad and doesn't give any insight as to why the question is being asked. This just makes it more difficult for the reader to properly answer the question.
+In the comic above we are presented with four legitimate answers, but which one is actually useful? As presented, the question is much too broad and doesn't give any insight as to why the question is being asked. This just makes it more difficult for the reader to properly answer the question.
 
 While the coffee-cup question may be silly, it does force us to consider what makes a question good or smart. Anyone can ask a question; however, it takes some skill to ask a question that will receive a relevant answer. 
 
 
 ## Getting Help
-As a software engineer getting stuck on a task is an inevitability, so it is important to be able to ask questions to get unstuck. Luckily for us, there is a spectacular resource known as StackOverflow: a vast community of developers who ask and answer questions related to programming. According to Stack Overflow, over 21 million questions have been asked. This begs the questions, how many of those questions received relevant answers?
+As a software engineer getting stuck on a task is an inevitability, so it is important to be able to ask questions to get unstuck. Luckily for us, there is a spectacular resource known as StackOverflow: a vast community of developers who ask and answer questions related to programming. According to Stack Overflow, over 21 million questions have been asked. This begs the question, how many of those questions received relevant answers?
 
 I went on a search for examples of smart and not-so-smart questions to see what kind of responses they received.
 
@@ -148,7 +148,7 @@ One of the commenters stated, "You've posted broad requirements and unexplained 
 At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The chastisement and lack of relevant responses highlights the issues with this not-so-smart question. 
 
 ## Conclusion
-Being able to ask smart questions in order to get relevant answers is an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer as opposed to a snarky or sarcastic reply.
+Being able to ask smart questions in order to get relevant answers is an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all.
 
 
 
