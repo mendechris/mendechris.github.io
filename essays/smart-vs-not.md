@@ -98,7 +98,7 @@ There are several issues with the above post. The first noticeable issue is that
 One the commenters stated:
 > You've posted broad requirements and unexplained code but have not yet asked a specific on-topic question. How is your current code misbehaving? What specifically are you confused or stuck on? Please edit and improve your post to help make it both easier to answer and more appropriate for this site. The How to Ask and How do I ask and answer Homework questions links can help guide you in this task.<br> Also, start by fixing your question title. We already know that you "need help for a task", why else would you be posting a question here? Your title should summarize your actual problem statement, not your plight.
 
-At the time of this posting, the question had received no answers and had been marked closed due to lack of detail. The lack of relevant responses really highlights the problems of a not-so-smart question. 
+At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The lack of relevant responses really highlights the issues with this not-so-smart question. 
 
 ## Conclusion
 
