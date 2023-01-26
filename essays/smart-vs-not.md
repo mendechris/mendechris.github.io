@@ -25,7 +25,7 @@ While the coffee-cup question may be silly, it does force us to consider what ma
 
 
 ## Getting Help
-As a software engineer getting stuck on a task is an inevitability, so it is important to be able to ask questions to get unstuck. Luckily for us, there is a spectacular resource known as StackOverflow: a vast community of developers who ask and answer programming-related questions. According to [StackOverflow](https://stackoverflow.co/), over 21 million questions have been asked. This begs the question, how many of those questions received relevant answers?
+As a software engineer getting stuck on a task at some point is an inevitability, so it is important to be able to ask questions to get unstuck. Luckily for us, there is a spectacular resource known as StackOverflow: a vast community of developers who ask and answer programming-related questions. According to [StackOverflow](https://stackoverflow.co/), over 21 million questions have been asked. This begs the question, how many of those questions received relevant answers?
 
 I searched for examples of smart and not-so-smart questions to see what kind of responses they received.
 
