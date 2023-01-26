@@ -149,7 +149,7 @@ Also, start by fixing your question title. We already know that you "need help f
 The criticism and lack of relevant responses highlight the issues with this not-so-smart question. 
 
 ## Conclusion
-Being able to ask smart questions to get relevant answers is an important skill for everyone. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all. For a website like Stack Overflow, it is good practice to be courteous, make the question clear, and to show them your attempts at a solution. This effort shows respect for the community and increases the likelihood of receiving helpful answers.
+Being able to ask smart questions to get relevant answers is an important skill for everyone. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all. For a website like StackOverflow it is good practice to be courteous, make the question clear, and to explain/show your attempts at a solution. This effort shows respect for the community and increases the likelihood of receiving helpful answers.
 
 
 
