@@ -4,7 +4,7 @@ type: essay
 title: "Smart vs. Not-so-Smart Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-26
-published: true
+published: false
 labels:
   - Questions
   - Answers
@@ -24,18 +24,40 @@ Take the above comic, we are presented with four legitimate answers, but which o
 While the coffee-cup question may be silly, there are many similar ambiguous questions all over StackOverflow. Nowadays, these questions don't stay up for very long and any answers they receive are likely unuseful.
 
 ## Getting What You Need
+While searching for an answer to my own question, I stumbled upon this question. While it is not a "perfect" smart question, it was very helpful for me to reference.
+
+```
+Question: How to iterate over a JavaScript Object?
 
 
+I have an object in JavaScript:
+
+{
+    abc: '...',
+    bca: '...',
+    zzz: '...',
+    xxx: '...',
+    ccc: '...',
+    // ...
+}
+
+I want to use a for loop to get its properties. And I want to iterate it in parts (not all object properties at once).
+
+With a simple array I can do it with a standard for loop:
+
+for (i = 0; i < 100; i++) { ... } // first part
+for (i = 100; i < 300; i++) { ... } // second
+for (i = 300; i < arr.length; i++) { ... } // last
+
+But how to do it with objects?
 
 
 ```
-Question:
-Something
-```
+The subject line for this question is very clear on what is desired. To iterate over an object. The post is over 10 years old, so that likely explains why the user didn't get a "RTFM" response. 
 
 
 
- 
+ [View question on StackOverflow](https://stackoverflow.com/questions/14379274/how-to-iterate-over-a-javascript-object?noredirect=1&lq=1)
 
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart "question" is from a user asking for help on their Java program.
