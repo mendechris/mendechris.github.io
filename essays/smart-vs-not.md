@@ -4,7 +4,7 @@ type: essay
 title: "Smart vs. Not-so-Smart Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-26
-published: false
+published: true
 labels:
   - Questions
   - Answers
@@ -27,37 +27,214 @@ While the coffee-cup question may be silly, there are many similar ambiguous que
 While searching for an answer to my own question, I stumbled upon this question. While it is not a "perfect" smart question, it was very helpful for me to reference.
 
 ```
-Question: How to iterate over a JavaScript Object?
+Question: Python - Accessing JSON element
 
 
-I have an object in JavaScript:
 
-{
-    abc: '...',
-    bca: '...',
-    zzz: '...',
-    xxx: '...',
-    ccc: '...',
-    // ...
-}
+I am trying retrieve weather forecasting from DarkSky using their API with the code below. I am interested only in the part of 
+hourly forecasting data:
 
-I want to use a for loop to get its properties. And I want to iterate it in parts (not all object properties at once).
+url="https://api.darksky.net/forecast/api_key/33.972386,-84.231986"
+response = requests.get(url)
+data = response.json()
+data
 
-With a simple array I can do it with a standard for loop:
+Here is the part of JSON data I get from data pull:
 
-for (i = 0; i < 100; i++) { ... } // first part
-for (i = 100; i < 300; i++) { ... } // second
-for (i = 300; i < arr.length; i++) { ... } // last
+{'latitude': 33.972386,
+ 'longitude': -84.231986,
+ 'timezone': 'America/New_York',
+ 'currently': {'time': 1553052005,
+  'summary': 'Clear',
+  'icon': 'clear-night',
+  'nearestStormDistance': 23,
+  'nearestStormBearing': 169,
+  'precipIntensity': 0,
+  'precipProbability': 0,
+  'temperature': 43.69,
+  'apparentTemperature': 43.69,
+  'dewPoint': 25.61,
+  'humidity': 0.49,
+  'pressure': 1026.37,
+  'windSpeed': 1.42,
+  'windGust': 4.94,
+  'windBearing': 79,
+  'cloudCover': 0,
+  'uvIndex': 0,
+  'visibility': 3.86,
+  'ozone': 309.99},
+ 'minutely': {'summary': 'Clear for the hour.',
+  'icon': 'clear-night',
+  'data': [{'time': 1553052000, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052060, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052120, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052180, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052240, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052300, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052360, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052420, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052480, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052540, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052600, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052660, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052720, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052780, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052840, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052900, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553052960, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053020, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053080, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053140, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053200, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053260, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053320, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053380, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053440, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053500, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053560, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053620, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053680, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053740, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053800, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053860, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053920, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553053980, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054040, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054100, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054160, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054220, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054280, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054340, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054400, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054460, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054520, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054580, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054640, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054700, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054760, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054820, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054880, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553054940, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055000, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055060, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055120, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055180, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055240, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055300, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055360, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055420, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055480, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055540, 'precipIntensity': 0, 'precipProbability': 0},
+   {'time': 1553055600, 'precipIntensity': 0, 'precipProbability': 0}]},
+ 'hourly': {'summary': 'Clear throughout the day.',
+  'icon': 'clear-day',
+  'data': [{'time': 1553050800,
+    'summary': 'Clear',
+    'icon': 'clear-night',
+    'precipIntensity': 0,
+    'precipProbability': 0,
+    'temperature': 44.13,
+    'apparentTemperature': 44.13,
+    'dewPoint': 25.62,
+    'humidity': 0.48,
+    'pressure': 1026.33,
+    'windSpeed': 1.24,
+    'windGust': 4.78,
+    'windBearing': 93,
+    'cloudCover': 0,
+    'uvIndex': 0,
+    'visibility': 3.49,
+    'ozone': 310.66},
+   {'time': 1553054400,
+    'summary': 'Clear',
+    'icon': 'clear-night',
+    'precipIntensity': 0,
+    'precipProbability': 0,
+    'temperature': 42.82,
+    'apparentTemperature': 42.82,
+    'dewPoint': 25.57,
+    'humidity': 0.5,
+    'pressure': 1026.44,
+    'windSpeed': 1.95,
+    'windGust': 5.25,
+    'windBearing': 60,
+    'cloudCover': 0,
+    'uvIndex': 0,
+    'visibility': 4.6,
+    'ozone': 308.68},
+   {'time': 1553058000,
+    'summary': 'Clear',
+    'icon': 'clear-night',
+    'precipIntensity': 0,
+    'precipProbability': 0,
+    'temperature': 42.45,
+    'apparentTemperature': 40.02,
+    'dewPoint': 25.52,
+    'humidity': 0.51,
+    'pressure': 1026.39,
+    'windSpeed': 4.15,
+    'windGust': 8.98,
+    'windBearing': 61,
+    'cloudCover': 0,
+    'uvIndex': 0,
+    'visibility': 10,
+    'ozone': 307.84},
+   {'time': 1553061600,
+    'summary': 'Clear',
+    'icon': 'clear-night',
+    'precipIntensity': 0,
+    'precipProbability': 0,
+    'temperature': 41.97,
+    'apparentTemperature': 38.42,
+    'dewPoint': 25.8,
+    'humidity': 0.52,
+    'pressure': 1025.98,
+    'windSpeed': 5.52,
+    'windGust': 11.44,
+    'windBearing': 63,
+    'cloudCover': 0,
+    'uvIndex': 0,
+    'visibility': 10,
+    'ozone': 307.21},
+   {'time': 1553065200,
+    'summary': 'Clear',
+    'icon': 'clear-night',
+    'precipIntensity': 0,
+    'precipProbability': 0,
+    'temperature': 40.7,
+    'apparentTemperature': 36.97,
+    'dewPoint': 25.86,
+    'humidity': 0.55,
+    'pressure': 1025.88,
+    'windSpeed': 5.44,
+    'windGust': 10.93,
+    'windBearing': 61,
+    'cloudCover': 0,
+    'uvIndex': 0,
+    'visibility': 10,
+    'ozone': 306.76},
 
-But how to do it with objects?
+Now this is bit complex json file and I have tried using json_normalize on hourly part of json file:
+
+json_normalize(data['hourly'])
+
+but im getting the the response like this:
+
+        data    icon    summary
+0   [{'time': 1553050800, 'summary': 'Clear', 'ico...   clear-day   Clear 
+    throughout the day.
+
+Any idea how do I access the temperature and pressure on hourly data part? So i need to get time, temperature, 
+pressure and humidity for every hour available. Thank you
+
 
 
 ```
-The subject line for this question is very clear on what is desired. To iterate over an object. The post is over 10 years old, so that likely explains why the user didn't get a "RTFM" response. 
 
 
 
- [View question on StackOverflow](https://stackoverflow.com/questions/14379274/how-to-iterate-over-a-javascript-object?noredirect=1&lq=1)
+
+ [View question on StackOverflow](https://stackoverflow.com/questions/55253260/python-accessing-json-element)
 
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart "question" is from a user asking for help on their Java program.
