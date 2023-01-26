@@ -148,7 +148,7 @@ One of the commenters stated, "You've posted broad requirements and unexplained 
 At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The chastisement and lack of relevant responses highlights the issues with this not-so-smart question. 
 
 ## Conclusion
-Being able to ask smart questions in order to get relevant answers in an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer as opposed to a snarky or sarcastic reply.
+Being able to ask smart questions in order to get relevant answers is an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer as opposed to a snarky or sarcastic reply.
 
 
 
