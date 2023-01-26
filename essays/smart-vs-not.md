@@ -29,10 +29,8 @@ While searching for an answer to my own question, I stumbled upon this question.
 ```
 Question: Python - Accessing JSON element
 
-
-
-I am trying retrieve weather forecasting from DarkSky using their API with the code below. I am interested only in the part of 
-hourly forecasting data:
+I am trying retrieve weather forecasting from DarkSky using their API with the code below. 
+I am interested only in the part of hourly forecasting data:
 
 url="https://api.darksky.net/forecast/api_key/33.972386,-84.231986"
 response = requests.get(url)
