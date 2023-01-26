@@ -40,12 +40,20 @@ Something
 ## Stack Overflow Can't Find the Question.
 A recent example of a not-so-smart "question" is from a user asking for help on their Java program.
 
-
-Question: I need help for a simple java task<br><br>
+```
+Question: I need help for a simple java task
  
 I am taking a java course online and I need a solution for one task. This is the condition:
 
-Write a program that tracks the average number of passengers per flight for each airline . Every day there are a certain number of airlines that have flights . Until the " Finish " command is received, you receive the number of passengers per flight . You need to calculate the average number of passengers per airline flight ( rounded to the smallest whole number ). Login : Initially, the number of airlines is read from the console - an integer in the interval [1… 20] Then read for each airline : • Airline name - text • " Finish " command is received, it reads : o Number of passengers per flight – an integer in the range [1... 360] Output : After reading all the passengers of a given company, one line is printed on the console : • "{ airline name }: { average number of passengers per flight } passengers." After all flights of all airlines have taken off, one line is printed : • "{ the name of the airline with the most passengers per flight } has most passengers per flight: { the average number of passengers per flight } "
+Write a program that tracks the average number of passengers per flight for each airline . Every day there are a certain number 
+of airlines that have flights . Until the " Finish " command is received, you receive the number of passengers per flight . 
+You need to calculate the average number of passengers per airline flight ( rounded to the smallest whole number ). 
+Login : Initially, the number of airlines is read from the console - an integer in the interval [1… 20] Then read for each 
+airline : • Airline name - text • " Finish " command is received, it reads : o Number of passengers per flight – an integer 
+in the range [1... 360] Output : After reading all the passengers of a given company, one line is printed on the 
+console : • "{ airline name }: { average number of passengers per flight } passengers." After all flights of all airlines 
+have taken off, one line is printed : • "{ the name of the airline with the most passengers per flight } has most 
+passengers per flight: { the average number of passengers per flight } "
 
 This is the input:
 
@@ -56,7 +64,7 @@ This is the output: WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthan
 This is my code:
 
 
-```Java
+Java
 Scanner scanner = new Scanner(System.in);
 
     int n = Integer.parseInt(scanner.nextLine());
@@ -85,17 +93,17 @@ Scanner scanner = new Scanner(System.in);
 
 
     }
-```
+
 
 Thank you for the help.
-
+```
 
 [See Original Question at StackOverFlow](https://stackoverflow.com/revisions/75189194/1)
 
 There are several issues with the above post. The first noticeable issue is that the header is vague and doesn't tell the reader what the issue is. It would have been better for the user to be more specific. Another issue is in the formatting of the post. The wall of text with odd bulleting makes the text very difficult to read and understand, which likely added to the frustration of readers. Additionally, while the user did provide some code for their attempt, they did not include any explanation as to what issues they had run into. Really, there wasn't an actual question for anyone to answer. 
 
 One the commenters stated:
-You've posted broad requirements and unexplained code but have not yet asked a specific on-topic question. How is your current code misbehaving? What specifically are you confused or stuck on? Please edit and improve your post to help make it both easier to answer and more appropriate for this site. The How to Ask and How do I ask and answer Homework questions links can help guide you in this task.<br> Also, start by fixing your question title. We already know that you "need help for a task", why else would you be posting a question here? Your title should summarize your actual problem statement, not your plight.
+```You've posted broad requirements and unexplained code but have not yet asked a specific on-topic question. How is your current code misbehaving? What specifically are you confused or stuck on? Please edit and improve your post to help make it both easier to answer and more appropriate for this site. The How to Ask and How do I ask and answer Homework questions links can help guide you in this task.<br> Also, start by fixing your question title. We already know that you "need help for a task", why else would you be posting a question here? Your title should summarize your actual problem statement, not your plight.```
 
 At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The lack of relevant responses really highlights the issues with this not-so-smart question. 
 
