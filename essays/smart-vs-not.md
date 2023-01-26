@@ -21,7 +21,7 @@ Most of the time when we ask a question, the goal is to get an answer. Of course
 
 Take the above comic, we are presented with four legitimate answers, but which one is actually useful? As presented above, the question is much too broad and doesn't give any insight as to why the question is being asked. This just makes it more difficult for the reader to properly answer the question.
 
-While the coffee-cup question may be silly, it does force us to consider what makes a question good or smart. Anyone can ask a question; however, it takes some skill to ask a question that will give a relevant answer. 
+While the coffee-cup question may be silly, it does force us to consider what makes a question good or smart. Anyone can ask a question; however, it takes some skill to ask a question that will receive a relevant answer. 
 
 
 ## Getting Help
