@@ -149,7 +149,7 @@ At the time of this posting, the question had three downvotes, received no answe
 
 ## Conclusion
 Being able to ask smart questions in order to get relevant answers is an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all.
-
+ 
 
 
 
