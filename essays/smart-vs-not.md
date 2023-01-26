@@ -25,7 +25,7 @@ While the coffee-cup question may be silly, it does force us to consider what ma
 
 
 ## Getting Help
-As a software engineer getting stuck on a task is an inevitability. Luckily for us, there is a spectacular resource known as StackOverflow: a vast community of developers who ask and answer questions related to programming. According to Stack Overflow, over 21 million questions have been asked. This begs the questions, how many of those questions received relevant answers?
+As a software engineer getting stuck on a task is an inevitability, so it is important to be able to ask questions to get unstuck. Luckily for us, there is a spectacular resource known as StackOverflow: a vast community of developers who ask and answer questions related to programming. According to Stack Overflow, over 21 million questions have been asked. This begs the questions, how many of those questions received relevant answers?
 
 I went on a search for examples of smart and not-so-smart questions to see what kind of responses they received.
 
@@ -148,7 +148,7 @@ One of the commenters stated, "You've posted broad requirements and unexplained 
 At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The chastisement and lack of relevant responses highlights the issues with this not-so-smart question. 
 
 ## Conclusion
-
+Being able to ask smart questions in order to get relevant answers in an important skill for everyone; especially software engineers. Knowing how and what to ask could make the difference in getting a helpful answer as opposed to a snarky or sarcastic reply.
 
 
 
