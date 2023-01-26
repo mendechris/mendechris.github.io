@@ -146,7 +146,7 @@ There are several issues with the above post. The first noticeable issue is that
 At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. There were a few comments trying to gather more information in an attempt to help. One commenter stated, "You've posted broad requirements and unexplained code but have not yet asked a specific on-topic question. How is your current code misbehaving? What specifically are you confused or stuck on? Please edit and improve your post to help make it both easier to answer and more appropriate for this site. The How to Ask and How do I ask and answer Homework questions links can help guide you in this task.
 Also, start by fixing your question title. We already know that you "need help for a task", why else would you be posting a question here? Your title should summarize your actual problem statement, not your plight."
 
-The chastisement and lack of relevant responses highlight the issues with this not-so-smart question. 
+The criticism and lack of relevant responses highlight the issues with this not-so-smart question. 
 
 ## Conclusion
 Being able to ask smart questions to get relevant answers is an important skill for everyone. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all. For a website like Stack Overflow, it is good practice to be courteous, make the question clear, and to show them your attempts at a solution. This effort shows respect for the community and increases the likelihood of receiving helpful answers.
