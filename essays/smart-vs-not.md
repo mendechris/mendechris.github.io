@@ -4,7 +4,7 @@ type: essay
 title: "Smart vs. Not-so-Smart Questions"
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-26
-published: true
+published: false
 labels:
   - Questions
   - Answers
@@ -71,9 +71,7 @@ Here, the header could have been a bit more specific. For example, they could ha
 
 The user is courteous and does a great job at explaining the desired outcome. The question is explicitly stated. Additionally, they include all of the data that is pulled so that readers do not have to complete the request themselves. The user also shows what they have tried and the outcome of their attempt. 
 
-The user subsquently received two answers to their question and commented that one of the answers directly solved their problem.
-
-This question and subsequent answer highlights the good outcomes that can come from asking a smart question.
+The user subsquently received two answers to their question and commented that one of the answers directly solved their problem. This question highlights the good outcomes that can come from asking a smart question.
 
 
  [View question on StackOverflow](https://stackoverflow.com/questions/55253260/python-accessing-json-element)
@@ -141,12 +139,15 @@ Thank you for the help.
 
 [See Original Question at StackOverFlow](https://stackoverflow.com/revisions/75189194/1)
 
-There are several issues with the above post. The first noticeable issue is that the header is vague and doesn't tell the reader what the issue is. It would have been better for the user to be more specific. Another issue is in the formatting of the post. The wall of text with odd bulleting makes the text very difficult to read and understand, which likely added to the frustration of readers. Additionally, while the user did provide some code for their attempt, they did not include any explanation as to what issues they had run into. Really, there wasn't an actual question for anyone to answer. 
+There are several issues with the above post. The first noticeable issue is that the header is vague and doesn't tell the reader what the issue is. It would have been better for the user to be more specific. Another issue is in the formatting of the post. The wall of text with odd bulleting makes the text very difficult to read and understand, which likely added to the frustration of readers. Additionally, while the user did provide some code for their attempt, they did not include any explanation for the errors or issues they encountered. Really, there wasn't an actual question for anyone to answer as no question had been explicilty stated.
 
 One of the commenters stated, "You've posted broad requirements and unexplained code but have not yet asked a specific on-topic question. How is your current code misbehaving? What specifically are you confused or stuck on? Please edit and improve your post to help make it both easier to answer and more appropriate for this site. The How to Ask and How do I ask and answer Homework questions links can help guide you in this task.<br> Also, start by fixing your question title. We already know that you "need help for a task", why else would you be posting a question here? Your title should summarize your actual problem statement, not your plight."
 
-At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The lack of relevant responses highlights the issues with this not-so-smart question. 
+At the time of this posting, the question had three downvotes, received no answers, and had been marked closed due to lack of detail. The chastisement and lack of relevant responses highlights the issues with this not-so-smart question. 
 
 ## Conclusion
+
+
+
 
 
