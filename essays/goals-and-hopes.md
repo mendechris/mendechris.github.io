@@ -20,6 +20,7 @@ My first experience with programming was in 2011, when I took Introduction to Co
 
 
 ## Goals for the Future
+For the immediate future, my goals are to do well in this class. Most of my experience in programming involves using a CLI to run code. I would like to create an app that others can use.
 
 
 
