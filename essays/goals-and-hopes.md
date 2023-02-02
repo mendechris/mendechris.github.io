@@ -14,7 +14,7 @@ labels:
 
 
 
-<img width="300px" class="rounded float-start pe-4" src="../essays/img/essay03/drseuss.png">
+<img width="500px" class="rounded float-start pe-4" src="../essays/img/essay03/drseuss.png">
 
 
 ## The Start
