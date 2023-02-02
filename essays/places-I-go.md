@@ -24,7 +24,7 @@ My first experience with programming was in 2011 when I took Introduction to Com
 
 
 ## Discovering My Interests
-It has been several years since that first semester and I’ve had a long gap of not programming. I’m not really sure about what my interests in software engineering are. One of the reasons I’ve decided to take ICS 314 is to discover what I like about software engineering. I have been a Math instructor for several years and it has been a rewarding career. One thing that I have missed is being able to work on Math in a more applied setting. Programming has allowed me to rekindle my love for problem-solving and software engineering seems like a perfect career to pivot into. One interest that has cropped up in the past as an educator, is that I would like to incorporate my knowledge in math and science into resources that will help students.
+It has been several years since that first semester and I’ve had a long gap of not programming. I’m not really sure about what my interests in software engineering are. One of the reasons I’ve decided to take ICS 314 is to discover what I like about software engineering. I have been a Math instructor for several years and it has been a rewarding career. One thing that I have missed is being able to work on Math in a more applied setting. Programming has allowed me to rekindle my love for problem-solving and software engineering seems like a perfect career to pivot into. One interest that has cropped up in the past as an educator is that I would like to incorporate my knowledge in math and science into resources that will help students.
 
 
 ## Goals for the Future
