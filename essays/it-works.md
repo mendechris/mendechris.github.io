@@ -75,11 +75,11 @@ Much to my chagrin, 26 errors popped up! At first glance, all of these warnings 
 
 
 I've graded a lot of math quizzes and exams over the years and every semester, without fail, there has been at least one student-written solution that had the correct answer at the end, but the logic in the middle didn't quite make sense.
-
+<div class="float">
 <img width="300px" src="../essays/img/essay04/miracle.png" class="center">
 
 Credit: [Sidney Harris Science Cartoons Plus](http://www.sciencecartoonsplus.com/gallery/math/index.php)
-
+</div>
 <div>
 This occurrence was usually followed with: "Why did you take off points? I got the correct answer," and an attempt to convince the student that writing a clear, logical argument that follows the rules of math was just as important as getting the correct answer.
 
