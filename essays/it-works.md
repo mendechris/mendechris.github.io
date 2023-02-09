@@ -18,7 +18,7 @@ Write an interesting, informative essay on coding standards that addresses some 
 
 
 
-<img width="400px" class="rounded float-start pe-4" src="../essays/img/essay04/99.png">
+<img width="400px" class="img-thumbnail" src="../essays/img/essay04/99.png">
 
 
 ## It Works, Doesn't It?
@@ -67,9 +67,9 @@ console.log(myMenu.findMenuItems("mango"));
 
 The above code was written for a WOD to practice Javascript Object Orientation. If you were to run it on JSFiddle or through Node, it should work perfectly fine. Indeed, it does on my computer. However, a funny (not) thing happens when you run it in IntelliJ with ESLint on.
 
-<img width="200px" src="../img/essay04/errors.png" class="img-thumbnail" >
+<img width="200px" src="../essays/img/essay04/errors.png" class="img-thumbnail" >
 
-At first glacne all of these warnings seem more like nitpicking than constructive error-checking.
+At first glance all of these warnings seem more like nitpicking than constructive error-checking.
 
 
 ## Check This Out.
