@@ -22,7 +22,48 @@ Write an interesting, informative essay on coding standards that addresses some 
 
 
 ## It Works, Doesn't It?
+```javascript
+class MenuItem {
+  constructor(name, ingredients, prices, calories) {
+    this.name = name;
+    this.ingredients = ingredients;
+    this.prices = prices;
+    this.calories = calories;
+  }
+}
 
+const papayaSunrise = new MenuItem("Papaya Sunrise", ["papaya", "strawberry", "peach"], {small: 5.15, medium: 5.75, large: 6.55}, {small: 190, medium: 280, large: 330});
+const peachPerfection = new MenuItem("Peach Perfection", ["mango", "strawberry", "peach"], {small: 5.15, medium: 5.75, large: 6.55}, {small: 210, medium: 320, large: 360});
+
+
+class Menu {
+  constructor() {
+    this.menuList = [];
+  }
+
+  addMenuItem(item) {
+    this.menuList.push(item);
+  }
+
+  findMenuItems(ingredient) {
+    let foundItems = [];
+
+    for (let item of this.menuList) {
+      if (item.ingredients.indexOf(ingredient) >= 0) {
+        foundItems.push(item);
+      }
+    }
+    return foundItems;
+  }
+}
+
+let myMenu = new Menu;
+
+myMenu.addMenuItem(papayaSunrise);
+myMenu.addMenuItem(peachPerfection);
+
+console.log(myMenu.findMenuItems("mango"));
+```
 
 
 ## Check This Out.
