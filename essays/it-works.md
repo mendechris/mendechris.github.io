@@ -18,7 +18,7 @@ Write an interesting, informative essay on coding standards that addresses some 
 
 
 
-<img width="400px" src="../essays/img/essay04/99.png">
+<img width="300px" src="../essays/img/essay04/99.png">
 
 
 ## It Works, Doesn't It?
@@ -69,7 +69,7 @@ console.log(myMenu.findMenuItems("mango"));
 
 However, a funny thing happened when I viewed the code in IntelliJ with ESLint.
 
-<img width="500px" src="../essays/img/essay04/errors.png">
+<img width="400px" src="../essays/img/essay04/errors.png">
 
 Much to my chagrin, 26 errors popped up! At first glance, all of these warnings seem more like nitpicking than constructive error-checking. If it works, then does it matter that I used double quotes instead of single quotes?
 
