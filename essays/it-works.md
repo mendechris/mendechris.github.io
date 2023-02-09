@@ -74,8 +74,8 @@ However, a funny thing happened when I viewed the code in IntelliJ with ESLint.
 Much to my chagrin, 26 errors popped up! At first glance, all of these warnings seem more like nitpicking than constructive error-checking. If it works, then does it matter that I used double quotes instead of single quotes?
 
 I've graded a lot of math quizzes and exams over the years and every semester, without fail, there has been at least one student-written solution that had the correct answer at the end, but the logic in the middle didn't quite make sense.
-<div class="rounded float-start pe-4" >
-<img width="300px" src="../essays/img/essay04/miracle.png" >
+<div>
+<img width="300px" src="../essays/img/essay04/miracle.png" class="rounded float-start pe-4" >
 
 This occurrence was usually followed with: "Why did you take off points? I got the correct answer," and an attempt to convince the student that writing a clear, logical argument that follows the rules of math was just as important as getting the correct answer.
 
@@ -84,7 +84,7 @@ Following a coding standard serves a similar purpose in programming. I can write
 Credit: [Sidney Harris Science Cartoons Plus](http://www.sciencecartoonsplus.com/gallery/math/index.php)
 
 ## Check Please!
-I hate notifications on my screen. That little number or red flag indicating that something needs tending to or is incomplete is infuriating. Seeing that exclamation point and number feels a bit like someone shouting, “Look at all the things you’ve done wrong!” It would be nice if I could write my code perfectly every time, but alas I'm human.
+I dislike notifications on my screen. That little number or red flag indicating that something needs tending to or is incomplete is displeasing. Seeing that exclamation point and number feels a bit like someone shouting, “Look at all the things you’ve done wrong!” It would be nice if I could write my code perfectly every time, but alas I'm human.
 
 Fortunately, as I’ve grown more familiar with the standards, I have seen that the error count stays low. I also find that I’m a lot more careful with how I write code. I especially like ESLint’s “quick fix” feature which takes care of most of those errors with a few clicks. While I don't want to see all of the errors, it is satisfying to see that green checkmark appear with little fuss.
 
