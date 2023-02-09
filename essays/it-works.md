@@ -67,11 +67,15 @@ myMenu.addMenuItem(peachPerfection);
 console.log(myMenu.findMenuItems("mango"));
 ```
 
-However, a funny thing happens when you view the code in IntelliJ with ESLint on.
+However, a funny thing happen when I viewed the code in IntelliJ with ESLint on.
 
 <img width="500px" src="../essays/img/essay04/errors.png" class="img-thumbnail" >
 
-At first glance all of these warnings seem more like nitpicking than constructive error-checking.
+Much to my chagrin, 26 errors popped up! At first glance all of these warnings seem more like nitpicking than constructive error-checking. If it works, then does it really matter that I used double quotes instead of single quotes?
+
+I've graded a lot of math quizzes and exams over the years and without fail there's always been at least one student-written solution that had the correct answer at the end, but the logic in the middle didn't quite make sense.
+
+<img width="500px" src="../essays/img/essay04/miracle.png" class="img-thumbnail" >
 
 
 ## Check This Out.
