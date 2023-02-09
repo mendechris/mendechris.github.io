@@ -22,6 +22,8 @@ Write an interesting, informative essay on coding standards that addresses some 
 
 
 ## It Works, Doesn't It?
+The followig code was written for a WOD to practice Javascript Object Orientation. If you were to run it on JSFiddle or through Node, it should work perfectly fine.
+
 ```javascript
 class MenuItem {
   constructor(name, ingredients, prices, calories) {
@@ -65,7 +67,7 @@ myMenu.addMenuItem(peachPerfection);
 console.log(myMenu.findMenuItems("mango"));
 ```
 
-The above code was written for a WOD to practice Javascript Object Orientation. If you were to run it on JSFiddle or through Node, it should work perfectly fine. Indeed, it does on my computer. However, a funny (not) thing happens when you run it in IntelliJ with ESLint on.
+However, a funny thing happens when you view the code in IntelliJ with ESLint on.
 
 <img width="500px" src="../essays/img/essay04/errors.png" class="img-thumbnail" >
 
