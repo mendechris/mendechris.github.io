@@ -65,6 +65,12 @@ myMenu.addMenuItem(peachPerfection);
 console.log(myMenu.findMenuItems("mango"));
 ```
 
+The above code was written for a WOD to practice Javascript Object Orientation. If you were to run it on JSFiddle or through Node, it should work perfectly fine. Indeed, it does on my computer. However, a funny (not) thing happens when you run it in IntelliJ with ESLint on.
+
+<img width="200px" src="../img/essay04/errors.png" class="img-thumbnail" >
+
+At first glacne all of these warnings seem more like nitpicking than constructive error-checking.
+
 
 ## Check This Out.
 
