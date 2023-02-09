@@ -86,7 +86,7 @@ This occurrence was usually followed with: "Why did you take off points? I got t
 Following a coding standard serves a similar purpose in programming. I can write code that works, but it would really be much better to write code that works AND can be easily understood by someone else. A good way to accomplish the latter is to follow the coding standards for the language. As an example, the code above is relatively short, so having multiple classes in one file isn't a big deal. As programs get larger, containing everything in a single file can make the software difficult to manage.
 
 
-## Check Please!
+## Check, Please!
 I dislike notifications on my screen. That little number or red flag indicating that something needs tending to or is incomplete is displeasing. Seeing that exclamation point and number feels a bit like someone shouting, “Look at all the things you’ve done wrong!” It would be nice if I could write my code perfectly every time, but alas I'm human.
 
 Fortunately, as I’ve grown more familiar with the standards, I have seen that the error count stays low. I also find that I’m a lot more careful with how I write code. I especially like ESLint’s “quick fix” feature which takes care of most of those errors with a few clicks. While I don't want to see all of the errors, it is satisfying to see that green checkmark appear with little fuss.
