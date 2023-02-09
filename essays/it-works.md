@@ -74,12 +74,14 @@ However, a funny thing happened when I viewed the code in IntelliJ with ESLint.
 Much to my chagrin, 26 errors popped up! At first glance, all of these warnings seem more like nitpicking than constructive error-checking. If it works, then does it matter that I used double quotes instead of single quotes?
 
 I've graded a lot of math quizzes and exams over the years and every semester, without fail, there has been at least one student-written solution that had the correct answer at the end, but the logic in the middle didn't quite make sense.
-<img width="300px" src="../essays/img/essay04/miracle.png" class="rounded float-start pe-4" >
+<div class="rounded float-start pe-4" >
+<img width="300px" src="../essays/img/essay04/miracle.png" >
 Credit: [Sidney Harris Science Cartoons Plus](http://www.sciencecartoonsplus.com/gallery/math/index.php)
+</div>
 
 This occurrence was usually followed with: "Why did you take off points? I got the correct answer," and an attempt to convince the student that writing a clear, logical argument that follows the rules of math was just as important as getting the correct answer.
 
-In my view, following a coding standard serves a similar purpose in programming. I can write code that works, but it would really be much better to write code that works AND can be easily understood by someone else. I believe a good way to accomplish the latter is to follow the coding standards for the language.
+Following a coding standard serves a similar purpose in programming. I can write code that works, but it would really be much better to write code that works AND can be easily understood by someone else. A good way to accomplish the latter is to follow the coding standards for the language.
 
 
 ## Check Please!
