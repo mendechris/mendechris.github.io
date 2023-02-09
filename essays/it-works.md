@@ -76,13 +76,12 @@ Much to my chagrin, 26 errors popped up! At first glance, all of these warnings 
 I've graded a lot of math quizzes and exams over the years and every semester, without fail, there has been at least one student-written solution that had the correct answer at the end, but the logic in the middle didn't quite make sense.
 <div class="rounded float-start pe-4" >
 <img width="300px" src="../essays/img/essay04/miracle.png" >
-Credit: [Sidney Harris Science Cartoons Plus](http://www.sciencecartoonsplus.com/gallery/math/index.php)
-</div>
 
 This occurrence was usually followed with: "Why did you take off points? I got the correct answer," and an attempt to convince the student that writing a clear, logical argument that follows the rules of math was just as important as getting the correct answer.
 
 Following a coding standard serves a similar purpose in programming. I can write code that works, but it would really be much better to write code that works AND can be easily understood by someone else. A good way to accomplish the latter is to follow the coding standards for the language.
-
+</div>
+Credit: [Sidney Harris Science Cartoons Plus](http://www.sciencecartoonsplus.com/gallery/math/index.php)
 
 ## Check Please!
 I hate notifications on my screen. That little number or red flag indicating that something needs tending to or is incomplete is infuriating. Seeing that exclamation point and number feels a bit like someone shouting, “Look at all the things you’ve done wrong!” It would be nice if I could write my code perfectly every time, but alas I'm human.
