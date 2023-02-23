@@ -45,7 +45,7 @@ I recently learned that one of my favorite websites is built using Bootstrap 5. 
 <div class="container mx-5 px-5 text-center">
   <div class="float-start"><img height="450px" class="pe-4" src="../essays/img/essay05/etsy.png">
     <p>Home Page with Full Width</p></div>
-  <div class="float-end"><img height="450px" class="pe-4" src="./essays/img/essay05/etsy-mobile.png">
+  <div class="float-end"><img height="450px" class="pe-4" src="../essays/img/essay05/etsy-mobile.png">
     <p>Mobile Preview of Home Page</p></div>
 </div>
 <div class="clearfix"></div>
@@ -54,3 +54,10 @@ The layout of the website is great for finding interesting items. It's simple, c
 ## Final Thoughts
 I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more time to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results as the original was worth the effort.
 
+<div class="container mx-5 px-5 text-center">
+  <div class="float-start"><img height="450px" class="pe-4" src="../essays/img/essay05/japanican-orig.png">
+    <p>Home Page with Full Width</p></div>
+  <div class="float-end"><img height="450px" class="pe-4" src="./essays/img/essay05/japanican-remake.png">
+    <p>Mobile Preview of Home Page</p></div>
+</div>
+<div class="clearfix"></div>
