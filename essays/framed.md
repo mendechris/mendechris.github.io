@@ -24,7 +24,7 @@ Feel free to go in another direction entirely, as long as you are discussing UI 
 
 To say that I find HTML and CSS frustrating is an understatement. In my last essay, I attempted to float a photo on the left of a single paragraph. Unfortunately, I wasn’t able to figure it out. I decided to put the image on its own line and called it a day.
 
-Placing an image in a particular spot seems like it should be a simple task. When I make a collage using paper and photos I can physically lay out things where I want with ease. Not so with Pure HTML and CSS! 
+Placing an image in a particular spot seems like it should be a simple task. When I make a collage using paper and photos I can physically lay out things where I want with ease. Not so with pure HTML and CSS! 
 
 Enter Bootstrap 5. The amount of customization allowed with Bootstrap 5 is convenient. Up until a week ago, I had no experience with Bootstrap or any UI framework. The ability to enter a few words into HTML and have an expandable and collapsible navigation bar was a surprise.
 
@@ -42,22 +42,31 @@ Another bonus is Bootstrap's use of responsive grids and images which allows for
 
 I recently learned that one of my favorite websites is built using Bootstrap 5. Etsy is an online marketplace primarily for sellers of handmade or vintage items. 
 
-<div class="container mx-5 px-5 text-center">
-  <div class="float-xl-start"><img height="450px" class="pe-4" src="../essays/img/essay05/etsy.png">
-    <p>Home Page with Full Width</p></div>
-  <div class="float-xl-end"><img height="450px" class="pe-4" src="../essays/img/essay05/etsy-mobile.png">
-    <p>Mobile Preview of Home Page</p></div>
-</div>
-<div class="clearfix"></div>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-lg-5">
+      <img  class="img-fluid" src="../essays/img/essay05/etsy.png">
+      <p><br>Home Page with Full Width</p>
+    </div>
+    <div class="col-lg-3">
+      <img class="img-fluid" src="../essays/img/essay05/etsy-mobile.png">
+      <p>Mobile Preview of Home Page</p></div>
+    </div>
+  </div>
 The layout of the website is great for finding interesting items. It's simple, clean, and easy to navigate. Here, their use of Bootstrap allows for a seamless transition to a small screen.
 
 ## Final Thoughts
 I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more time to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results as the original was worth the effort.
 
-<div class="container text-center">
-  <div class="float-xl-start"><img width="600px" src="../essays/img/essay05/japanican-orig.png">
-    <p>Original Japanican Page</p></div>
-  <div class="float-xl-end"><img width="600px"  src="../essays/img/essay05/japanican-remake.png">
-    <p>Recreation using Bootstrap 5</p></div>
-</div>
-<div class="clearfix"></div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-lg-6">
+      <img  class="img-fluid" src="../essays/img/essay05/japanican-orig.png">
+      <p><br>Original Page</p>
+    </div>
+    <div class="col-lg-6">
+      <img class="img-fluid" src="../essays/img/essay05/japanican-remake.png">
+      <p>Remake with Bootstrap 5</p></div>
+    </div>
+  </div>
