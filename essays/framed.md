@@ -21,6 +21,8 @@ Feel free to go in another direction entirely, as long as you are discussing UI 
 
 <img width="500px" class="float-start pe-4" src="../essays/img/essay05/etsy.png">
 
+<div class="clearfix"></div>
+
 ## Subtitle 1
 
 Paragraph 1
