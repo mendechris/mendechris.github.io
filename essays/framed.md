@@ -42,11 +42,15 @@ Another bonus is Bootstrap's use of responsive grids and images which allows for
 
 I recently learned that one of my favorite websites is built using Bootstrap 5. Etsy is an online marketplace primarily for sellers of handmade or vintage items. 
 
-<div class="container text-center">
-<img width="600px" class="pe-4" src="../essays/img/essay05/etsy.png">
-<img height="300px" class="pe-4" src="../essays/img/essay05/etsy-mobile.png">
+<div class="container mx-5 px-5 text-center">
+  <div class="float-start"><img height="450px" class="pe-4" src="etsy.png">
+    <p>Home Page with Full Width</p></div>
+  <div class="float-end"><img height="450px" class="pe-4" src="etsy-mobile.png">
+    <p>Mobile Preview of Home Page</p></div>
 </div>
-
-
+<div class="clearfix"></div>
 The layout of the website is great for finding interesting items. It's simple, clean, and easy to navigate. Here, their use of Bootstrap allows for a seamless transition to a small screen.
+
+## Final Thoughts
+I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more effort to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results was worth the effort.
 
