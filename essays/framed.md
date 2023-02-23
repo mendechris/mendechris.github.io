@@ -18,6 +18,7 @@ This essay is tailor made to include an image of a web page built with a UI fram
 
 Feel free to go in another direction entirely, as long as you are discussing UI Frameworks, and as long as the result is interesting, informative, and insightful. Write for the world! -->
 
+<img src="../essays/img/essay05/grid-design.png" class="img-fluid">
 
 
 ## Please, come here. No, not there. Over here.
@@ -55,6 +56,8 @@ I recently learned that one of my favorite websites is built using Bootstrap 5. 
     </div>
   </div>
 The layout of the website is great for finding interesting items. It's simple, clean, and easy to navigate. Here, their use of Bootstrap allows for a seamless transition to a small screen.
+
+## The Negative
 
 ## Final Thoughts
 I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more time to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results as the original was worth the effort.
