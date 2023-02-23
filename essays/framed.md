@@ -55,9 +55,9 @@ The layout of the website is great for finding interesting items. It's simple, c
 I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more time to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results as the original was worth the effort.
 
 <div class="container mx-5 px-5 text-center">
-  <div class="float-start"><img height="450px" class="pe-4" src="../essays/img/essay05/japanican-orig.png">
+  <div class="float-start"><img width="45%" class="pe-4" src="../essays/img/essay05/japanican-orig.png">
     <p>Original Japanican Page</p></div>
-  <div class="float-end"><img height="450px" class="pe-4" src="../essays/img/essay05/japanican-remake.png">
+  <div class="float-end"><img width="45%" class="pe-4" src="../essays/img/essay05/japanican-remake.png">
     <p>Recreation using Bootstrap 5</p></div>
 </div>
 <div class="clearfix"></div>
