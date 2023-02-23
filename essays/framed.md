@@ -18,8 +18,9 @@ This essay is tailor made to include an image of a web page built with a UI fram
 
 Feel free to go in another direction entirely, as long as you are discussing UI Frameworks, and as long as the result is interesting, informative, and insightful. Write for the world! -->
 
+<div class="container" width="20%">
 <img src="../essays/img/essay05/grid-design.png" class="img-fluid">
-
+</div>
 
 ## Please, come here. No, not there. Over here.
 
@@ -44,7 +45,7 @@ Another bonus is Bootstrap's use of responsive grids and images which allows for
 I recently learned that one of my favorite websites is built using Bootstrap 5. Etsy is an online marketplace primarily for sellers of handmade or vintage items. 
 
 
-<div class="container text-center">
+<div class="container justify-content-center">
   <div class="row text-center">
     <div class="col-lg-5">
       <img  class="img-fluid" src="../essays/img/essay05/etsy.png">
