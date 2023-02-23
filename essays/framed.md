@@ -43,9 +43,9 @@ Another bonus is Bootstrap's use of responsive grids and images which allows for
 I recently learned that one of my favorite websites is built using Bootstrap 5. Etsy is an online marketplace primarily for sellers of handmade or vintage items. 
 
 <div class="container mx-5 px-5 text-center">
-  <div><img height="450px" class="pe-4" src="../essays/img/essay05/etsy.png">
+  <div class="float-xl-start"><img height="450px" class="pe-4" src="../essays/img/essay05/etsy.png">
     <p>Home Page with Full Width</p></div>
-  <div><img height="450px" class="pe-4" src="../essays/img/essay05/etsy-mobile.png">
+  <div class="float-xl-end"><img height="450px" class="pe-4" src="../essays/img/essay05/etsy-mobile.png">
     <p>Mobile Preview of Home Page</p></div>
 </div>
 <div class="clearfix"></div>
@@ -55,9 +55,9 @@ The layout of the website is great for finding interesting items. It's simple, c
 I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more time to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results as the original was worth the effort.
 
 <div class="container text-center">
-  <div><img width="600px" src="../essays/img/essay05/japanican-orig.png">
+  <div class="float-xl-start"><img width="600px" src="../essays/img/essay05/japanican-orig.png">
     <p>Original Japanican Page</p></div>
-  <div><img width="600px"  src="../essays/img/essay05/japanican-remake.png">
+  <div class="float-xl-end"><img width="600px"  src="../essays/img/essay05/japanican-remake.png">
     <p>Recreation using Bootstrap 5</p></div>
 </div>
 <div class="clearfix"></div>
