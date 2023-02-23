@@ -57,7 +57,7 @@ I spent many hours using Bootstrap 5 to recreate a webpage. There were several f
 <div class="container mx-5 px-5 text-center">
   <div class="float-start"><img height="450px" class="pe-4" src="../essays/img/essay05/japanican-orig.png">
     <p>Original Japanican Page</p></div>
-  <div class="float-end"><img height="450px" class="pe-4" src="../essays/img/essay05/japanican-remake.png">
+  <div class="float-end"><img height="450px" class="pe-4" src="..essays/img/essay05/japanican-remake.png">
     <p>Recreation using Bootstrap 5</p></div>
 </div>
 <div class="clearfix"></div>
