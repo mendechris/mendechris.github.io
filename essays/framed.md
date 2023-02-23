@@ -44,7 +44,7 @@ Another bonus is Bootstrap's use of responsive grids and images which allows for
 I recently learned that one of my favorite websites is built using Bootstrap 5. Etsy is an online marketplace primarily for sellers of handmade or vintage items. 
 
 
-<div class="container">
+<div class="container text-center">
   <div class="row text-center">
     <div class="col-lg-5">
       <img  class="img-fluid" src="../essays/img/essay05/etsy.png">
@@ -58,6 +58,7 @@ I recently learned that one of my favorite websites is built using Bootstrap 5. 
 The layout of the website is great for finding interesting items. It's simple, clean, and easy to navigate. Here, their use of Bootstrap allows for a seamless transition to a small screen.
 
 ## The Negative
+There are a few downsides to using Bootstrap 5. First, if you use CDN via jsDelivr and the host goes down for any reason, your site will not work correctly. Another criticism is that many Bootstrap-built sites have the same cookie-cutter look. So if you want to stand out from the crowd, you will have to apply more customized settings. This leads to another con, that customization for Bootstrap 5 is not the simplest and at some point, it may be more beneficial to use raw HTML and CSS. One more critique is that Bootstrap often ends up as a substitute for learning HTML and CSS properly. Admittedly, I have a tenuous grasp of HTML and CSS - while it is very convenient - Bootstrap has abstracted away how and why it works.
 
 ## Final Thoughts
 I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more time to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results as the original was worth the effort.
