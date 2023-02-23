@@ -30,7 +30,7 @@ Enter Bootstrap 5. The amount of customization allowed with Bootstrap 5 is conve
 
 ## Why, frameworks?
 
-The amount of effort put into making something “pretty” seems counter to what I actually want to do - code something functional. Even though UI design is not my favorite part of software development, I know that it's important. Clients and users are not likely to use an interface that is visually unappealing or clunky.
+The amount of effort put into making something “pretty” seems counter to what I actually want to focus on: functionality. Even though UI design is not my favorite part of software development, I know that it's important. Clients and users are not likely to use an interface that is visually unappealing or clunky.
 
 While there is a learning curve, the advantage of using Bootstrap 5 over pure HTML and CSS is in the amount of time saved. With Bootstrap, you can create a nice mockup of your web application out of the box. This allows you to spend more time on the application's back end.
 
@@ -55,9 +55,9 @@ The layout of the website is great for finding interesting items. It's simple, c
 I spent many hours using Bootstrap 5 to recreate a webpage. There were several features that I was not able to implement using Bootstrap alone; however, I know that with raw HTML and CSS, it would have taken significantly more time to reproduce. Admittedly there was some frustration, but the amount of time I saved to get similar results as the original was worth the effort.
 
 <div class="container text-center">
-  <div class="float-start"><img width="45%" src="../essays/img/essay05/japanican-orig.png">
+  <div class="float-start"><img width="600px" src="../essays/img/essay05/japanican-orig.png">
     <p>Original Japanican Page</p></div>
-  <div class="float-end"><img width="45%"  src="../essays/img/essay05/japanican-remake.png">
+  <div class="float-end"><img width="600px"  src="../essays/img/essay05/japanican-remake.png">
     <p>Recreation using Bootstrap 5</p></div>
 </div>
 <div class="clearfix"></div>
