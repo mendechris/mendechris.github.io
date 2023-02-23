@@ -68,7 +68,7 @@ I spent many hours using Bootstrap 5 to recreate a webpage. There were several f
   <div class="row text-center">
     <div class="col-lg-6">
       <img  class="img-fluid" src="../essays/img/essay05/japanican-orig.png">
-      <p><br>Original Page</p>
+      <p>Original Page</p>
     </div>
     <div class="col-lg-6">
       <img class="img-fluid" src="../essays/img/essay05/japanican-remake.png">
