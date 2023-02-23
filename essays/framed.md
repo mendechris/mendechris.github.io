@@ -19,13 +19,13 @@ This essay is tailor made to include an image of a web page built with a UI fram
 Feel free to go in another direction entirely, as long as you are discussing UI Frameworks, and as long as the result is interesting, informative, and insightful. Write for the world! -->
 
 
-<div class="text-center"><img width="600px" class="float-start pe-4" src="../essays/img/essay05/etsy.png"></div>
+<div class="text-center"><img width="600px" class="pe-4" src="../essays/img/essay05/etsy.png"></div>
 
 ## Subtitle 1
 
 Paragraph 1
 
-<div class="clearfix"></div>
+
 
 
 
