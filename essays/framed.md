@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Framed!"
 # All dates must be YYYY-MM-DD format!
-date: 2023-02-22
+date: 2023-02-23
 published: true
 labels:
   - Reflection
