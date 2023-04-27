@@ -60,7 +60,7 @@ Inside these classes we also have singleton instances of each of our collection 
 
 Note that while this code uses the keyword "class" to create this object, Javascript uses the Prototype Design Pattern.
 
-```
+<pre><code>
 import { Mongo } from 'meteor/mongo';
 import SimpleSchema from 'simpl-schema';
 
@@ -93,7 +93,7 @@ class VendorInventoryCollection {
  * @type {VendorInventoryCollection}
  */
 export const Inventory = new VendorInventoryCollection();
-```
+</code></pre>
 
 </details>
 
