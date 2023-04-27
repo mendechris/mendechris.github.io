@@ -55,11 +55,9 @@ To handle the Recipes, User Profiles, Vendor, and Inventory data, we’ve create
 ### Singleton Design Pattern: 
 Inside these classes we also have singleton instances of each of our collection – that is – we created a single instance of each of our collections to manage the database.
 
-<details>
-    <summary>Click to see the use of Prototype and Singleton Design Patterns</summary>
+Prototype and Singleton Design Patterns
 
-<pre>
-  <code>
+```javascript
     import { Mongo } from 'meteor/mongo';
     import SimpleSchema from 'simpl-schema';
 
@@ -92,11 +90,7 @@ Inside these classes we also have singleton instances of each of our collection 
      * @type {VendorInventoryCollection}
      */
     export const Inventory = new VendorInventoryCollection();
-  </code>
-</pre>
-
-
-</details>
+```
 
 ### Publish-Subscribe Design Pattern: 
 Meteor paired with MongoDB uses a Publication/Subscription model which is an example of the Observer Design Pattern. In the server side startup code, we use Meteor Publications to allow users of various roles to access the data in our MongoDB collections. In order to view this data, many of the application's pages subscribes to one (or more) collections. This also allows users to get updated data as it happens.
