@@ -18,7 +18,7 @@ labels:
 
 Design patterns provide general reusable solutions from experienced software developers that address common problems.
 
-Some examples include: Factory Design Pattern, Model-View-Controller Design Pattern, Prototype Design Patter, Singleton Design Pattern, Observer Design Pattern. These design patterns and others help software engineers approach common problems with tested solutions.
+Some examples include: Factory Design Pattern, Model-View-Controller Design Pattern, Prototype Design Pattern, Singleton Design Pattern, Observer Design Pattern. These design patterns and others help software engineers approach common problems with tested solutions.
 
 ## An Example: Teriyaki Factory: Competition for [May’s Hawaii](https://www.purityfoodshawaii.com/mayshawaii).
 
