@@ -37,7 +37,7 @@ Now, makeTeri() will do the following.
 The above is an example of a Factory Design Pattern. It takes in a parameter (protein) and a ready-to-cook teriyaki protein comes out. The benefit of this approach is that if I want to add another protein to the menu, I only need to modify the makeTeri() function instead of creating a whole new process.
 
 <figure class="text-center">
-<img width="250px" class="img-thumbnail img-fluid" src="../essays/img/essay06/teri-plate.png" alt="AI generated image of a teri-plate" title="It's amazing how realistic this looks.">
+<img width="250px" class="img-thumbnail img-fluid" src="../essays/img/essay06/teri-plate.png" alt="AI generated image of a teri-plate" title="It's amazing how realistic this looks." />
 <figcaption>Bing Image Creator's Attempt at a Teriyaki Plate</figcaption>
 </figure>
 
@@ -56,11 +56,14 @@ To handle the Recipes, User Profiles, Vendor, and Inventory data, we’ve create
 Inside these classes we also have singleton instances of each of our collection – that is – we created a single instance of each of our collections to manage the database.
 
 <details>
-    <summary>Click to see the use of Prototype and Singleton Design Patterns</summary>
+
+<summary>
+Click to see the use of Prototype and Singleton Design Patterns
+</summary>
 
 Note that while this code uses the keyword "class" to create this object, Javascript uses the Prototype Design Pattern.
 
-<pre><code>
+```
 import { Mongo } from 'meteor/mongo';
 import SimpleSchema from 'simpl-schema';
 
@@ -93,7 +96,7 @@ class VendorInventoryCollection {
  * @type {VendorInventoryCollection}
  */
 export const Inventory = new VendorInventoryCollection();
-</code></pre>
+```
 
 </details>
 
