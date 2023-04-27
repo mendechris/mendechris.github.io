@@ -55,7 +55,7 @@ To handle the Recipes, User Profiles, Vendor, and Inventory data, we’ve create
 ### Singleton Design Pattern: 
 Inside these classes we also have singleton instances of each of our collection – that is – we created a single instance of each of our collections to manage the database.
 
-Prototype and Singleton Design Patterns
+Prototype and Singleton Design Patterns Example: 
 
 ```javascript
     import { Mongo } from 'meteor/mongo';
