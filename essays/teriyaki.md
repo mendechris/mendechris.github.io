@@ -9,7 +9,7 @@ labels:
   - Reflection
   - Design Patterns
 ---
-<figure>
+<figure class="text-center">
 <img width="500px" class="img-thumbnail img-fluid" src="../essays/img/essay06/teriyakifactory.jpg" alt="AI generated image of a factory" title="Images with text seem to be a weakspot for this version of DALL-E">
 <figcaption>Bing Image Creator's Attempt at a Teriyaki Factory</figcaption>
 </figure>
@@ -36,7 +36,7 @@ Now, makeTeri() will do the following.
 
 The above is an example of a Factory Design Pattern. It takes in a parameter (protein) and a ready-to-cook teriyaki protein comes out. The benefit of this approach is that if I want to add another protein to the menu, I only need to modify the makeTeri() function instead of creating a whole new process.
 
-<figure>
+<figure class="text-center">
 <img width="500px" class="img-thumbnail img-fluid" src="../essays/img/essay06/teri-plate.png" alt="AI generated image of a teri-plate" title="It's amazing how realistic this looks.">
 <figcaption>Bing Image Creator's Attempt at a Teriyaki Plate</figcaption>
 </figure>
