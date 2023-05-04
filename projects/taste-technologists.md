@@ -38,7 +38,7 @@ For this project, each member of the team was responsible for both front-end and
 You can view the Admin Panel in action here: 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/S_kzsacqo9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style="position: absolute; top: 0; left: 0; width: 50%; height: 50%;" src="https://www.youtube.com/embed/S_kzsacqo9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 * Creating the Individual Recipe page which shows the recipe's information.
@@ -66,7 +66,7 @@ The following is a sample of the code used to render and implement the rating/re
 The rating/reviews form and comments appear in an Offcanvas Bootstrap component that is accessed via the recipe page by pressing on the "Reviews" button at the bottom of the page.
 
 This code renders the Review Menu.
-```javascript
+```jsx
  <>
       <Button variant="secondary" id="review-button" onClick={handleShow} className="me-2">
         Reviews
@@ -133,7 +133,7 @@ Meteor.methods({
 ```
 If a recipe has one or more reviews, then they are rendered in the Review Menu as an accordion item.
 
-```javascript
+```jsx
 /** Renders a single Accordion Item in the ReviewMenu Component. See components/ReviewMenu.jsx. */
 
 const RecReviewItem = ({ review, idx }) => (
