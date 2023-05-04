@@ -4,7 +4,7 @@ type: project
 image: img/poke-weather-square.jpg
 title: "Taste Technologists"
 date: 2023
-published: false
+published: true
 labels:
   - Web Application
   - Javascript
@@ -51,7 +51,12 @@ You can view the Admin Panel in action here:
 
 ## What I learned
 
-** Add Paragraph **
+This project was a challenging experience since it was the first time that I was involved in writing code for both the front-end and back-end of a web application. 
+
+In carrying out my responsibilities, I learned about:
+* the differences between making changes to the MongoDB collection from the client-side vs. the server side,
+* the importance of hiding public access to user data through Meteor Publications,
+* how to work collaboratively with my teammates who each have their own coding style and approach to designing web applications.
 
 The following is a sample of the code used to render and implement the rating/review feature.
 
