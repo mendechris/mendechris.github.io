@@ -4,7 +4,7 @@
     "label": "Student",
     "picture": "https://github.com/mendechris.png",
     "email": "cmende@hawaii.edu",
-    "phone": "626-470-7640",
+    "phone": "808-600-9603",
     "website": "https://mendechris.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall 2024. I hope to work as a Software Engineer.",
     "location": {"postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
@@ -16,16 +16,16 @@
   "interests": [
     { "name": "Software Development" },
     { "name": "Data Science" },
-    { "name": "Mathematics" },
+    { "name": "Mathematics" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Ruby" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Ruby", "Meteor", "Bootstrap" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "g++" ]
+      "keywords": [ "MacOS", "g++", "IntelliJ", "React" ]
     }
   ],
   "education": [
@@ -35,7 +35,7 @@
       "studyType": "B.S.",
       "startDate": "2022-08-22",
       "endDate": "Present",
-      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241"
+      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241", "ICS 314"
       ]
     },
     {
