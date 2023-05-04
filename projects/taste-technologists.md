@@ -36,7 +36,10 @@ For this project, each member of the team was responsible for both front-end and
 * Creating the Admin Panel which allows admin to edit content in the system, remove inappropriate content, and establish users as having the vendor role.
 
 You can view the Admin Panel in action here: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S_kzsacqo9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/S_kzsacqo9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 * Creating the Individual Recipe page which shows the recipe's information.
 
