@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/poke-weather-square.jpg
+image: img/taste-technologists/FaSTT.png
 title: "Taste Technologists"
 date: 2023
 published: true
