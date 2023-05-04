@@ -14,7 +14,7 @@ summary: "My team and I developed an app for UH Manoa college students that allo
 ---
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/taste-technologists/M3_Landing.png" class="img-thumbnail img-fluid" >
+  <img width="800px" src="../img/taste-technologists/M3_Landing.png" class="img-thumbnail img-fluid" >
 </div>
 
 ## Overview
@@ -33,6 +33,7 @@ Taste Technologists was designed to give students (on-campus or off) a variety o
 
 For this project, each member of the team was responsible for both front-end and back-end (serve side) code. Some of my responsibilities included: 
 * Creating schemas for and publishing the Recipes, Vendor, and VendorInventory Collections.
+<br />
 * Creating the Admin Panel which allows admin to edit content in the system, remove inappropriate content, and establish users as having the vendor role.
 
 You can view the Admin Panel in action here: 
@@ -41,15 +42,19 @@ You can view the Admin Panel in action here:
   <iframe style="position: absolute; top: 0; left: 0; width: 50%; height: 50%;" src="https://www.youtube.com/embed/S_kzsacqo9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+
+
 * Creating the Individual Recipe page which shows the recipe's information.
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/taste-technologists/M3_RecView2.png" class="img-thumbnail img-fluid" >
+  <img width="800px" src="../img/taste-technologists/M3_RecView2.png" class="img-thumbnail img-fluid" >
 </div>
 
+
 * Implementing the Recipe Rating and Review feature for each recipe.
+
 <div class="text-center p-4">
-  <img width="500px" src="../img/taste-technologists/M3_RecViewRating3.png" class="img-thumbnail img-fluid" >
+  <img width="800px" src="../img/taste-technologists/M3_RecViewRating3.png" class="img-thumbnail img-fluid" >
 </div>
 
 ## What I learned
