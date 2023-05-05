@@ -91,7 +91,7 @@ This code renders the Review Menu.
 ```
 The AddReview component contains the form for users to submit their review for a recipe.
 
-When a user submits a recipe review, they only need to provide a rating on a scale of 1 to 5 and a comment. After completing the form and hitting 'submit,' the submit function initiates a Meteor call to the Review.add Meteor method. Because users are logged in when creating a review, their identifying information is automatically passed along with the review to the Meteor Method.
+When a user submits a recipe review, they only need to provide a rating on a scale of 1 to 5 and a comment. After completing the form and hitting 'submit,' the submit function initiates a Meteor call to the Review.add Meteor method. Because users are logged in when creating a review, their identifying information is automatically passed along with the review to the Meteor method.
 
 The following code executes once the user has correctly filled out the form and pressed the submit button:
 
