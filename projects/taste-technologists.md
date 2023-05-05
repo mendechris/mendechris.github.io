@@ -43,14 +43,12 @@ You can view the Admin Panel in action here:
 </div>
 
 * Creating the Individual Recipe page which shows the recipe's information.
-
 <div class="text-center p-4">
   <img width="800px" src="../img/taste-technologists/M3_RecView2.png" class="img-thumbnail img-fluid" >
 </div>
 
 
 * Implementing the Recipe Rating and Review feature for each recipe.
-
 <div class="text-center p-4">
   <img width="800px" src="../img/taste-technologists/M3_RecViewRating3.png" class="img-thumbnail img-fluid" >
 </div>
@@ -93,7 +91,7 @@ This code renders the Review Menu.
 ```
 The AddReview component contains the form for users to submit their review for a recipe.
 
-When a user submits a recipe review, they only need to provide a rating on a scale of 1 to 5 and a comment. After completing the form and hitting 'submit,' the submit function initiates a Meteor Call to the Review.add Meteor Method. Because users are logged in when creating a review, their identifying information is automatically passed along with the review to the Meteor Method.
+When a user submits a recipe review, they only need to provide a rating on a scale of 1 to 5 and a comment. After completing the form and hitting 'submit,' the submit function initiates a Meteor call to the Review.add Meteor method. Because users are logged in when creating a review, their identifying information is automatically passed along with the review to the Meteor Method.
 
 The following code executes once the user has correctly filled out the form and pressed the submit button:
 
