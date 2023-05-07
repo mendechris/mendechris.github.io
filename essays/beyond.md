@@ -57,9 +57,11 @@ Using an IDE has been so eye-opening. Learning to use one has saved me time and 
 
 When you google, "definition of ethics," one of the first results that comes up is to a Canadian Government website for The Office of Public Service Values and Ethics (OPSVE). In the section, "What are ethics?" they write: 
 
-> Derived from the Greek word “ethos”, which means “way of living”, ethics is a branch of philosophy that is concerned with human conduct, more specifically the behavior of individuals in society. Ethics examines the rational justification for our moral judgments; it studies what is morally right or wrong, just or unjust.
-> 
-> In a broader sense, ethics reflects on human beings and their interaction with nature and with other humans, on freedom, on responsibility and on justice.
+<blockquote cite="https://www.canada.ca/en/treasury-board-secretariat/services/values-ethics/code/what-is-ethics.html">
+Derived from the Greek word “ethos”, which means “way of living”, ethics is a branch of philosophy that is concerned with human conduct, more specifically the behavior of individuals in society. Ethics examines the rational justification for our moral judgments; it studies what is morally right or wrong, just or unjust.<br />
+
+In a broader sense, ethics reflects on human beings and their interaction with nature and with other humans, on freedom, on responsibility and on justice.
+</blockquote>
 
 Ethics and morals are the concepts that categorize how we behave as people in a functioning society. The extension of these behavioral rules/expectations to the field of technology and software engineering should be natural. Technology has become so intertwined with everyday life, our lives would be devastated if it were to suddenly "go rogue" or stop working as intended.
 
