@@ -74,7 +74,7 @@ I sometimes take for granted how much power a software engineer can have. When w
 But it's not enough to simply avoid harm. Following the ethical guidelines for software engineers includes using our skills for the benefit of the public. This could include volunteer work and it can also include developing educational software that aids teachers and students.
 
 <div class="text-center">
-<img src="../essays/img/essay07/stvoydoctor.gif" class="img-fluid" width="480px">
+<img src="../essays/img/essay07/stvoy2.jpg" class="img-fluid" width="480px">
 </div>
 A question that continues to trouble me is: In the pursuit of doing good, how should we weigh the potential for harm?
 
