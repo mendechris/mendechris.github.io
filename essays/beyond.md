@@ -33,6 +33,7 @@ Be careful and do not assume the reader understands what “configuration manage
 
 <div class="text-center">
 <img width="500px" class="img-fluid rounded pe-4" src="../essays/img/essay07/ai-gen-programmer.jpg">
+<figcaption>Source: Microsoft Bing Image Creator</figcaption>
 </div>
 
 ## Beginnings
@@ -73,9 +74,10 @@ I sometimes take for granted how much power a software engineer can have. When w
 
 But it's not enough to simply avoid harm. Following the ethical guidelines for software engineers includes using our skills for the benefit of the public. This could include volunteer work and it can also include developing educational software that aids teachers and students.
 
-<div class="text-center">
+<figure class="text-center">
 <img src="../essays/img/essay07/stvoy2.jpg" class="img-fluid" width="480px">
-</div>
+<figcaption>Source: Star Trek: Voyager S04E25 </figcaption>
+</figure>
 A question that continues to trouble me is: In the pursuit of doing good, how should we weigh the potential for harm?
 
 An example of ethical concerns in software engineering is the topic of Artificial Intelligence (AI). Like many others, I have used ChatGPT. Even the image for this essay was "created" using Bing's AI image generator. The potential good for this technology seems endless. Salman Khan, the founder of Khan Academy, touted the potential impact of AI on education saying that it could give ["...every student on the planet an artificially intelligent, but amazing, personal tutor."](https://www.businessinsider.com/ai-will-give-every-student-personalized-tutor-sal-khan-academy-2023-5)

@@ -19,7 +19,7 @@ summary: "My team and I developed an app for UH Manoa college students that allo
 
 ## Overview
 
-As part of our group final project, my team and I were tasked with implementing the ideas behind [Toaster Oven Lovin'](https://courses.ics.hawaii.edu/ics314s23/morea/final-project/reading-project-toaster-oven-lovin.html)
+As part of our group final project, my team and I were tasked with implementing the ideas behind [Toaster Oven Lovin'](https://courses.ics.hawaii.edu/ics314s23/morea/final-project/reading-project-toaster-oven-lovin.html). We used the [Meteor-Application-Template-React](https://ics-software-engineering.github.io/meteor-application-template-react/) template as the starting point for the application. The application uses Meteor with MongoDB, React, Bootstrap 5 to implement the functionality and design.
 
 Taste Technologists was designed to give students (on-campus or off) a variety of easy and delicious recipes that:
 
