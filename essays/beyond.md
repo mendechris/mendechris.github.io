@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Beyond Web Applications"
 # All dates must be YYYY-MM-DD format!
-date: 2023-05-07
+date: 2023-05-10
 published: true
 labels:
   - Reflection
@@ -89,4 +89,4 @@ Additionally, several [CEOs from Big Tech met with White House officials](https:
 It is difficult to act with certainty when there are so many variables that can have good and bad effects. I  hope that as I develop as a software engineer I will continue to prioritize ethical practices so that I can avoid doing harm and do good.
 
 ## To be continued...
-This class has given me valuable experience and insight into software engineering. The exposure to various topics such as development environments and being an ethical software engineer has been beneficial in practical and intellectual ways. As a result, I have a better understanding of the tools that I use and on how they should be used for good.
+This class has given me valuable experience and insight into software engineering. The exposure to various topics such as development environments and being an ethical software engineer has been beneficial in practical and intellectual ways. As a result, I have a better understanding of the tools that I use and how they should be used for good.
