@@ -32,3 +32,14 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+/* Adjust font size for mobile screens */
+@media (max-width: 576px) {
+  .navbar-nav a {
+    font-size: 10px;
+  }
+  .mobile {
+    display: block;
+    margin: 0 auto;
+  }
+}
