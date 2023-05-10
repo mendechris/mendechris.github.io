@@ -31,7 +31,7 @@ Taste Technologists was designed to give students (on-campus or off) a variety o
 * Has an estimated number of servings per recipe.
 * Has an estimate of how long it takes to make.
 
-For this project, each member of the team was responsible for both front-end and back-end (serve side) code. Some of my responsibilities included: 
+For this project, each member of the team was responsible for both front-end and back-end (server side) code. Some of my responsibilities included: 
 * Creating schemas for and publishing the Recipes, Vendor, and VendorInventory Collections.
 <br />
 * Creating the Admin Panel which allows admin to edit content in the system, remove inappropriate content, and establish users as having the vendor role.
@@ -69,25 +69,27 @@ The rating/reviews form and comments appear in an Offcanvas Bootstrap component 
 This code renders the Review Menu.
 ```jsx
  <>
-      <Button variant="secondary" id="review-button" onClick={handleShow} className="me-2">
-        Reviews
-      </Button>
-      <Offcanvas show={show} onHide={handleClose} placement="end" className="bg-img">
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Reviews</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          <AddReview name={name} recipeId={recipeId} userID={userID} user={user} />
-          <h3>Reviews: {reviewCount}</h3>
-          <Accordion>
-            {currentItems.map((rev, idx) => (
-              <RecReviewItem key={idx} idx={idx} review={rev} />
-            ))}
-          </Accordion>
-          <Pagination className="my-3">{paginationItems}</Pagination>
-        </Offcanvas.Body>
-      </Offcanvas>
-    </>
+   <Button variant="secondary" id="review-button" onClick={handleShow} className="me-2">
+     Reviews
+   </Button>
+   <Offcanvas show={show} onHide={handleClose} placement="end" className="bg-img">
+     <Offcanvas.Header closeButton>
+       <Offcanvas.Title>Reviews</Offcanvas.Title>
+     </Offcanvas.Header>
+     <Offcanvas.Body>
+       <AddReview name={name} recipeId={recipeId} userID={userID} user={user} />
+       <h3>Reviews: {reviewCount}</h3>
+       <Accordion>
+         {currentItems.map((rev, idx) => (
+           <RecReviewItem key={idx} idx={idx} review={rev} />
+         ))}
+       </Accordion>
+       <Pagination className="my-3">
+         {paginationItems}
+       </Pagination>
+     </Offcanvas.Body>
+   </Offcanvas>
+ </>
 ```
 The AddReview component contains the form for users to submit their review for a recipe.
 
@@ -97,19 +99,17 @@ The following code executes once the user has correctly filled out the form and 
 
 ```javascript
 const submit = (data, formRef) => {
-    const { rating, comment } = data.review[0];
-    const reviewInfo = { userID, user, rating: Number(rating), comment, created: new Date() };
-    // console.log(reviewInfo);
-    // console.log(recipeId);
-    Meteor.call(addReviewMethod, { recipeId, reviewInfo }, (error) => {
-      if (error) {
-        swal('Error', error.message, 'error');
-      } else {
-        swal('Success', 'Review added successfully', 'success');
-        formRef.reset();
-      }
-    });
-  };
+  const { rating, comment } = data.review[0];
+  const reviewInfo = { userID, user, rating: Number(rating), comment, created: new Date() };
+   Meteor.call(addReviewMethod, { recipeId, reviewInfo }, (error) => {
+     if (error) {
+       swal('Error', error.message, 'error');
+     } else {
+       swal('Success', 'Review added successfully', 'success');
+       formRef.reset();
+     }
+   });
+};
 ```
 
 When the Review.add method is called, it removes the old review if one exists, and adds the new review.
