@@ -26,7 +26,7 @@ Taste Technologists was designed to give students (on-campus or off) a variety o
 * Can be made using minimal kitchen facilities (at a minimum, a toaster oven).
 * Can be made out of ingredients that are available within walking distance of UH.
 * Suit local taste sensibilities.
-* Can be filtered via dietary restrictions (gluten-free, vegan, etc).
+* Can be filtered via dietary restrictions (gluten-free, vegan, etc.).
 * Have an estimated cost per serving.
 * Has an estimated number of servings per recipe.
 * Has an estimate of how long it takes to make.
@@ -98,18 +98,18 @@ When a user submits a recipe review, they only need to provide a rating on a sca
 The following code executes once the user has correctly filled out the form and pressed the submit button:
 
 ```javascript
-const submit = (data, formRef) => {
-  const { rating, comment } = data.review[0];
-  const reviewInfo = { userID, user, rating: Number(rating), comment, created: new Date() };
-   Meteor.call(addReviewMethod, { recipeId, reviewInfo }, (error) => {
-     if (error) {
-       swal('Error', error.message, 'error');
-     } else {
-       swal('Success', 'Review added successfully', 'success');
-       formRef.reset();
-     }
-   });
-};
+  const submit = (data, formRef) => {
+    const { rating, comment } = data.review[0];
+    const reviewInfo = { userID, user, rating: Number(rating), comment, created: new Date() };
+     Meteor.call(addReviewMethod, { recipeId, reviewInfo }, (error) => {
+       if (error) {
+         swal('Error', error.message, 'error');
+       } else {
+         swal('Success', 'Review added successfully', 'success');
+         formRef.reset();
+       }
+     });
+  };
 ```
 
 When the Review.add method is called, it removes the old review if one exists, and adds the new review.
@@ -135,9 +135,9 @@ Meteor.methods({
 If a recipe has one or more reviews, then they are rendered in the Review Menu as an accordion item.
 
 ```jsx
-/** Renders a single Accordion Item in the ReviewMenu Component. See components/ReviewMenu.jsx. */
+  /** Renders a single Accordion Item in the ReviewMenu Component. See components/ReviewMenu.jsx. */
 
-const RecReviewItem = ({ review, idx }) => (
+  const RecReviewItem = ({ review, idx }) => (
   <Accordion.Item eventKey={idx}>
     <Accordion.Header>
       <Row className="w-100">
