@@ -36,9 +36,10 @@ a {
 /* Adjust font size for mobile screens */
 @media (max-width: 576px) {
   .navbar-nav a {
-    font-size: 12px;
+    font-size: 13px;
   }
   .mobile {
     text-align: center;
+    justify-content: center;
   }
 }
