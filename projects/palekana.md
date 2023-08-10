@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/poke-weather-square.jpg
+image: img/palekana-sq.png
 title: "Palekana URL Shortener "
 date: 2022
 published: false
@@ -13,9 +13,8 @@ summary: "My team participated in the HACC 2022 Hackathon, where we created Pale
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/projects/pw1.png" class="img-thumbnail" >
-  <img width="200px" src="../img/projects/pw2.png" class="img-thumbnail" >
-  <img width="200px" src="../img/projects/pw3.png" class="img-thumbnail" >
+  <img width="200px" src="../img/palekana/palekana1.png" class="img-thumbnail" >
+  <img width="200px" src="../img/palekana/palekana2.png" class="img-thumbnail" >
 </div>
 
 The Hawaii Annual Code Challenge (HACC) is a hackathon initiated by Gov. David Ige in 2015, aimed at modernizing state functions and fostering the local tech industry. Unlike traditional hackathons, HACC spans weeks, enabling collaborative solutions between community teams and state departments.
