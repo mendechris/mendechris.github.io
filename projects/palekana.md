@@ -4,7 +4,7 @@ type: project
 image: img/palekana-sq.png
 title: "Palekana URL Shortener "
 date: 2022
-published: false
+published: true
 labels:
   - SQLite
   - Flask
