@@ -16,16 +16,17 @@
   "interests": [
     { "name": "Software Development" },
     { "name": "Data Science" },
+    { "name": "Data Analysis" },
     { "name": "Mathematics" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Ruby", "Meteor", "Bootstrap" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Ruby", "Meteor", "Bootstrap", "Python", "SQL" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "g++", "IntelliJ", "React", "MongoDB" ]
+      "name": "Version Control/Toolsets/OS",
+      "keywords": [ "Git/Github","Windows","MacOS", "g++", "IntelliJ", "React", "MongoDB", "MySQL Workbench", "SQLite", "Visual Studio Code" ]
     }
   ],
   "education": [
@@ -35,7 +36,7 @@
       "studyType": "B.S.",
       "startDate": "2022-08-22",
       "endDate": "Present",
-      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241", "ICS 314"
+      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241", "ICS 314", "ICS311"
       ]
     },
     {
