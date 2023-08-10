@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/poke-weather-square.jpg
 title: "Pokemon Weather App "
-date: 2021-12
+date: 2021
 published: true
 labels:
   - Ruby
@@ -18,7 +18,7 @@ summary: "My team developed a Pokemon Go Weather App to complement the Pokemon G
   <img width="200px" src="../img/projects/pw3.png" class="img-thumbnail" >
 </div>
 
-STEM Warrior Hacks (Winter) is an international student-run hackathon open to anyone 13 years and older. It is a hands-on event which allows beginner coders to learn new skills and gain first-hand experience in programming in teams. This hackathon was open-themed in that teams could create any type of program. My team and I decided to create a fun app centered on our favorite game: Pokemon Go.
+STEM Warrior Hacks (Winter Dec 31, 2021 - Jan 2, 2022) is an international student-run hackathon open to anyone 13 years and older. It is a hands-on event which allows beginner coders to learn new skills and gain first-hand experience in programming in teams. This hackathon was open-themed in that teams could create any type of program. My team and I decided to create a fun app centered on our favorite game: Pokemon Go.
 
 For this project, I  was responsible for the backend (server-side) code. I used OpenWeatherMap API to access relevant weather data for each zip code . I also used PoGo API and PokeApi to retrieve information related to each Pokemon's data such as type, move set, and stats. 
 

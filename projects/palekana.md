@@ -3,23 +3,23 @@ layout: project
 type: project
 image: img/palekana-sq.png
 title: "Palekana URL Shortener "
-date: 2022-10
+date: 2022
 published: true
 labels:
-  - SQLite
+  - SQL
   - Flask
-  - HTML
+  - Python
 summary: "Palekana: a secure URL Shortening App tailored for government employees."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/palekana/palekana1.png" class="img-thumbnail" >
-  <img width="200px" src="../img/palekana/palekana2.png" class="img-thumbnail" >
+  <img width="500px" src="../img/palekana/palekana1.png" class="img-thumbnail" >
+  <img width="500px" src="../img/palekana/palekana2.png" class="img-thumbnail" >
 </div>
 
 The Hawaii Annual Code Challenge (HACC) is a hackathon initiated by Gov. David Ige in 2015, aimed at modernizing state functions and fostering the local tech industry. Unlike traditional hackathons, HACC spans weeks, enabling collaborative solutions between community teams and state departments.
 
-My team participated in the HACC 2022 Hackathon, where we created Palekana: a secure URL Shortening App tailored for government employees. Palekana enables the effortless creation and curation of safely-shortened URLs, ensuring a secure online environment for public distribution. Our app addresses online security concerns and promotes safer online interactions.
+My team participated in the HACC 2022 Hackathon (Oct-Nov 2022), where we created Palekana: a secure URL Shortening App tailored for government employees. Palekana enables the effortless creation and curation of safely-shortened URLs, ensuring a secure online environment for public distribution. Our app addresses online security concerns and promotes safer online interactions.
 
 For this project, we utilized a range of technologies, including Python, Flask, and SQL, to seamlessly integrate robust back-end functionalities. This allowed us to achieve secure URL shortening through effective hash encoding/decoding. 
 
