@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/poke-weather-square.jpg
 title: "Pokemon Weather App "
-date: 2022
+date: 2021-12
 published: true
 labels:
   - Ruby
