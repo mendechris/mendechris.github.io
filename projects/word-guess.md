@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/projects/hangman1.png
 title: "Word Guess Game"
-date: 2021-11
+date: 2021
 published: true
 labels:
   - Ruby
