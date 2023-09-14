@@ -31,12 +31,21 @@
   ],
   "education": [
     {
+      "institution": "Coursera",
+      "area": "Google Data Analytics",
+      "studyType": "Certificate",
+      "startDate": "2023-08-28",
+      "endDate": "Present",
+      "courses": ["Foundations: Data, Data, Everywhere", "Ask Questions to Make Data-Driven Decisions", "Prepare Data for Exploration", "Process Data from Dirty to Clean", "Analyze Data to Answer Questions", "Share Data Through the Art of Visualization", "Data Analysis with R Programming"
+      ]
+    },
+    {
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
       "area": "Computer Science (expected Fall, 2024)",
       "studyType": "B.S.",
       "startDate": "2022-08-22",
       "endDate": "Present",
-      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241", "ICS 314", "ICS311"
+      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241", "ICS 314", "ICS 311", "ICS 321"
       ]
     },
     {
