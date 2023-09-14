@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Taste Technologists | Christina Mende | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mendechris.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Christina Mende | Professional Portfolio">
+    <meta property="og:url" content="https://mendechris.github.io/projects/taste-technologists.html">
+    <meta property="og:title" content="Taste Technologists | Christina Mende | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mendechris.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Taste Technologists | Christina Mende | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Christina Mende</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="container py-4">
+  <h1 class="display-4">Taste Technologists</h1>
+ <div class="text-center p-4">
+  <img width="800px" src="../img/taste-technologists/M3_Landing.png" class="img-thumbnail img-fluid" />
+</div>
+
+<h2 id="overview">Overview</h2>
+
+<p>As part of our group final project, my team and I were tasked with implementing the ideas behind <a href="https://courses.ics.hawaii.edu/ics314s23/morea/final-project/reading-project-toaster-oven-lovin.html">Toaster Oven Lovin’</a>. We used the <a href="https://ics-software-engineering.github.io/meteor-application-template-react/">Meteor-Application-Template-React</a> template as the starting point for the application. The application uses Meteor with MongoDB, React, Bootstrap 5 to implement the functionality and design.</p>
+
+<p>Taste Technologists was designed to give students (on-campus or off) a variety of easy and delicious recipes that:</p>
+
+<ul>
+  <li>Can be made using minimal kitchen facilities (at a minimum, a toaster oven).</li>
+  <li>Can be made out of ingredients that are available within walking distance of UH.</li>
+  <li>Suit local taste sensibilities.</li>
+  <li>Can be filtered via dietary restrictions (gluten-free, vegan, etc.).</li>
+  <li>Have an estimated cost per serving.</li>
+  <li>Has an estimated number of servings per recipe.</li>
+  <li>Has an estimate of how long it takes to make.</li>
+</ul>
+
+<p>For this project, each member of the team was responsible for both front-end and back-end (server side) code. Some of my responsibilities included:</p>
+<ul>
+  <li>Creating schemas for and publishing the Recipes, Vendor, and VendorInventory Collections.
+<br /></li>
+  <li>Creating the Admin Panel which allows admin to edit content in the system, remove inappropriate content, and establish users as having the vendor role.</li>
+</ul>
+
+<p>You can view the Admin Panel in action here:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;" class="text-center">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/S_kzsacqo9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+<p><br /><br /></p>
+<ul>
+  <li>Creating the Individual Recipe page which shows the recipe’s information.</li>
+</ul>
+<div class="text-center p-4">
+  <img width="800px" src="../img/taste-technologists/M3_RecView2.png" class="img-thumbnail img-fluid" />
+</div>
+
+<ul>
+  <li>Implementing the Recipe Rating and Review feature for each recipe.</li>
+</ul>
+<div class="text-center p-4">
+  <img width="800px" src="../img/taste-technologists/M3_RecViewRating3.png" class="img-thumbnail img-fluid" />
+</div>
+
+<h2 id="what-i-learned">What I learned</h2>
+
+<p>This project was a challenging experience since it was the first time that I was involved in writing code for both the front-end and back-end of a web application.</p>
+
+<p>In carrying out my responsibilities, I learned about:</p>
+<ul>
+  <li>the differences between making changes to the MongoDB collection from the client-side vs. the server side,</li>
+  <li>the importance of hiding public access to user data through Meteor Publications,</li>
+  <li>how to work collaboratively with my teammates who each have their own coding style and approach to designing web applications.</li>
+</ul>
+
+<p>The following is a sample of the code used to render and implement the rating/review feature.</p>
+
+<p>The rating/reviews form and comments appear in an Offcanvas Bootstrap component that is accessed via the recipe page by pressing on the “Reviews” button at the bottom of the page.</p>
+
+<p>This code renders the Review Menu.</p>
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">&lt;&gt;</span>
+   <span class="p">&lt;</span><span class="nc">Button</span> <span class="na">variant</span><span class="p">=</span><span class="s">"secondary"</span> <span class="na">id</span><span class="p">=</span><span class="s">"review-button"</span> <span class="na">onClick</span><span class="p">=</span><span class="si">{</span><span class="nx">handleShow</span><span class="si">}</span> <span class="na">className</span><span class="p">=</span><span class="s">"me-2"</span><span class="p">&gt;</span>
+     Reviews
+   <span class="p">&lt;/</span><span class="nc">Button</span><span class="p">&gt;</span>
+   <span class="p">&lt;</span><span class="nc">Offcanvas</span> <span class="na">show</span><span class="p">=</span><span class="si">{</span><span class="nx">show</span><span class="si">}</span> <span class="na">onHide</span><span class="p">=</span><span class="si">{</span><span class="nx">handleClose</span><span class="si">}</span> <span class="na">placement</span><span class="p">=</span><span class="s">"end"</span> <span class="na">className</span><span class="p">=</span><span class="s">"bg-img"</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nc">Offcanvas</span><span class="p">.</span><span class="nc">Header</span> <span class="na">closeButton</span><span class="p">&gt;</span>
+       <span class="p">&lt;</span><span class="nc">Offcanvas</span><span class="p">.</span><span class="nc">Title</span><span class="p">&gt;</span>Reviews<span class="p">&lt;/</span><span class="nc">Offcanvas</span><span class="p">.</span><span class="nc">Title</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nc">Offcanvas</span><span class="p">.</span><span class="nc">Header</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nc">Offcanvas</span><span class="p">.</span><span class="nc">Body</span><span class="p">&gt;</span>
+       <span class="p">&lt;</span><span class="nc">AddReview</span> <span class="na">name</span><span class="p">=</span><span class="si">{</span><span class="nx">name</span><span class="si">}</span> <span class="na">recipeId</span><span class="p">=</span><span class="si">{</span><span class="nx">recipeId</span><span class="si">}</span> <span class="na">userID</span><span class="p">=</span><span class="si">{</span><span class="nx">userID</span><span class="si">}</span> <span class="na">user</span><span class="p">=</span><span class="si">{</span><span class="nx">user</span><span class="si">}</span> <span class="p">/&gt;</span>
+       <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>Reviews: <span class="si">{</span><span class="nx">reviewCount</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
+       <span class="p">&lt;</span><span class="nc">Accordion</span><span class="p">&gt;</span>
+         <span class="si">{</span><span class="nx">currentItems</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">rev</span><span class="p">,</span> <span class="nx">idx</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span>
+           <span class="p">&lt;</span><span class="nc">RecReviewItem</span> <span class="na">key</span><span class="p">=</span><span class="si">{</span><span class="nx">idx</span><span class="si">}</span> <span class="na">idx</span><span class="p">=</span><span class="si">{</span><span class="nx">idx</span><span class="si">}</span> <span class="na">review</span><span class="p">=</span><span class="si">{</span><span class="nx">rev</span><span class="si">}</span> <span class="p">/&gt;</span>
+         <span class="p">))</span><span class="si">}</span>
+       <span class="p">&lt;/</span><span class="nc">Accordion</span><span class="p">&gt;</span>
+       <span class="p">&lt;</span><span class="nc">Pagination</span> <span class="na">className</span><span class="p">=</span><span class="s">"my-3"</span><span class="p">&gt;</span>
+         <span class="si">{</span><span class="nx">paginationItems</span><span class="si">}</span>
+       <span class="p">&lt;/</span><span class="nc">Pagination</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nc">Offcanvas</span><span class="p">.</span><span class="nc">Body</span><span class="p">&gt;</span>
+   <span class="p">&lt;/</span><span class="nc">Offcanvas</span><span class="p">&gt;</span>
+ <span class="p">&lt;/&gt;</span>
+</code></pre></div></div>
+<p>The AddReview component contains the form for users to submit their review for a recipe.</p>
+
+<p>When a user submits a recipe review, they only need to provide a rating on a scale of 1 to 5 and a comment. After completing the form and hitting ‘submit,’ the submit function initiates a Meteor call to the Review.add Meteor method. Because users are logged in when creating a review, their identifying information can be easily accessed and passed along with the review to the Meteor method.</p>
+
+<p>The following code executes once the user has correctly filled out the form and pressed the submit button:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kd">const</span> <span class="nx">submit</span> <span class="o">=</span> <span class="p">(</span><span class="nx">data</span><span class="p">,</span> <span class="nx">formRef</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="p">{</span> <span class="nx">rating</span><span class="p">,</span> <span class="nx">comment</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">review</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+    <span class="kd">const</span> <span class="nx">reviewInfo</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">userID</span><span class="p">,</span> <span class="nx">user</span><span class="p">,</span> <span class="na">rating</span><span class="p">:</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">rating</span><span class="p">),</span> <span class="nx">comment</span><span class="p">,</span> <span class="na">created</span><span class="p">:</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">()</span> <span class="p">};</span>
+     <span class="nx">Meteor</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">addReviewMethod</span><span class="p">,</span> <span class="p">{</span> <span class="nx">recipeId</span><span class="p">,</span> <span class="nx">reviewInfo</span> <span class="p">},</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+       <span class="k">if</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+         <span class="nx">swal</span><span class="p">(</span><span class="dl">'</span><span class="s1">Error</span><span class="dl">'</span><span class="p">,</span> <span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">,</span> <span class="dl">'</span><span class="s1">error</span><span class="dl">'</span><span class="p">);</span>
+       <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+         <span class="nx">swal</span><span class="p">(</span><span class="dl">'</span><span class="s1">Success</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Review added successfully</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">success</span><span class="dl">'</span><span class="p">);</span>
+         <span class="nx">formRef</span><span class="p">.</span><span class="nx">reset</span><span class="p">();</span>
+       <span class="p">}</span>
+     <span class="p">});</span>
+  <span class="p">};</span>
+</code></pre></div></div>
+
+<p>When the Review.add method is called, it removes the old review if one exists, and adds the new review.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">Meteor</span><span class="p">.</span><span class="nx">methods</span><span class="p">({</span>
+  <span class="dl">'</span><span class="s1">Review.add</span><span class="dl">'</span><span class="p">({</span> <span class="nx">recipeId</span><span class="p">,</span> <span class="nx">reviewInfo</span> <span class="p">})</span> <span class="p">{</span>
+    <span class="c1">// Pulls the old review</span>
+    <span class="nx">RecReviews</span><span class="p">.</span><span class="nx">collection</span><span class="p">.</span><span class="nx">update</span><span class="p">(</span>
+      <span class="p">{</span> <span class="na">recipeId</span><span class="p">:</span> <span class="nx">recipeId</span> <span class="p">},</span>
+      <span class="p">{</span> <span class="na">$pull</span><span class="p">:</span> <span class="p">{</span> <span class="na">review</span><span class="p">:</span> <span class="p">{</span> <span class="na">userID</span><span class="p">:</span> <span class="nx">reviewInfo</span><span class="p">.</span><span class="nx">userID</span> <span class="p">}</span> <span class="p">}</span> <span class="p">},</span>
+    <span class="p">);</span>
+
+    <span class="c1">// Add the new review</span>
+    <span class="nx">RecReviews</span><span class="p">.</span><span class="nx">collection</span><span class="p">.</span><span class="nx">update</span><span class="p">(</span>
+      <span class="p">{</span> <span class="na">recipeId</span><span class="p">:</span> <span class="nx">recipeId</span> <span class="p">},</span>
+      <span class="p">{</span> <span class="na">$addToSet</span><span class="p">:</span> <span class="p">{</span> <span class="na">review</span><span class="p">:</span> <span class="nx">reviewInfo</span> <span class="p">}</span> <span class="p">},</span>
+    <span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Successfully added into RecipesReviews</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">},</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>If a recipe has one or more reviews, then they are rendered in the Review Menu as an accordion item.</p>
+
+<div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="cm">/** Renders a single Accordion Item in the ReviewMenu Component. See components/ReviewMenu.jsx. */</span>
+
+  <span class="kd">const</span> <span class="nx">RecReviewItem</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">review</span><span class="p">,</span> <span class="nx">idx</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">(</span>
+  <span class="p">&lt;</span><span class="nc">Accordion</span><span class="p">.</span><span class="nc">Item</span> <span class="na">eventKey</span><span class="p">=</span><span class="si">{</span><span class="nx">idx</span><span class="si">}</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nc">Accordion</span><span class="p">.</span><span class="nc">Header</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nc">Row</span> <span class="na">className</span><span class="p">=</span><span class="s">"w-100"</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nc">Col</span> <span class="na">md</span><span class="p">=</span><span class="si">{</span><span class="mi">6</span><span class="si">}</span> <span class="na">lg</span><span class="p">=</span><span class="si">{</span><span class="mi">6</span><span class="si">}</span> <span class="na">className</span><span class="p">=</span><span class="s">"text-start"</span><span class="p">&gt;</span>
+          Reviewer: <span class="si">{</span><span class="nx">review</span><span class="p">.</span><span class="nx">user</span><span class="si">}</span>
+        <span class="p">&lt;/</span><span class="nc">Col</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nc">Col</span> <span class="na">md</span><span class="p">=</span><span class="si">{</span><span class="mi">6</span><span class="si">}</span> <span class="na">lg</span><span class="p">=</span><span class="si">{</span><span class="mi">6</span><span class="si">}</span> <span class="na">className</span><span class="p">=</span><span class="s">"text-end text-lg-center"</span><span class="p">&gt;</span>
+          <span class="si">{</span><span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">review</span><span class="p">.</span><span class="nx">created</span><span class="p">).</span><span class="nx">toLocaleDateString</span><span class="p">(</span><span class="dl">'</span><span class="s1">en-US</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span><span class="na">year</span><span class="p">:</span> <span class="dl">'</span><span class="s1">numeric</span><span class="dl">'</span><span class="p">,</span><span class="na">month</span><span class="p">:</span> <span class="dl">'</span><span class="s1">long</span><span class="dl">'</span><span class="p">,</span><span class="na">day</span><span class="p">:</span> <span class="dl">'</span><span class="s1">numeric</span><span class="dl">'</span><span class="p">,})</span><span class="si">}</span>
+        <span class="p">&lt;/</span><span class="nc">Col</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nc">Col</span> <span class="na">md</span><span class="p">=</span><span class="si">{</span><span class="mi">12</span><span class="si">}</span> <span class="na">lg</span><span class="p">=</span><span class="si">{</span><span class="mi">12</span><span class="si">}</span> <span class="na">className</span><span class="p">=</span><span class="s">"text-start"</span><span class="p">&gt;</span>
+          Rating: <span class="si">{</span><span class="nx">review</span><span class="p">.</span><span class="nx">rating</span><span class="si">}</span>/5
+        <span class="p">&lt;/</span><span class="nc">Col</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nc">Row</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nc">Accordion</span><span class="p">.</span><span class="nc">Header</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nc">Accordion</span><span class="p">.</span><span class="nc">Body</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">h6</span><span class="p">&gt;</span>Comment: <span class="p">&lt;/</span><span class="nt">h6</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span> <span class="na">className</span><span class="p">=</span><span class="s">"review-comment"</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">review</span><span class="p">.</span><span class="nx">comment</span><span class="si">}</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nc">Accordion</span><span class="p">.</span><span class="nc">Body</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nc">Accordion</span><span class="p">.</span><span class="nc">Item</span><span class="p">&gt;</span>
+<span class="p">);</span>
+</code></pre></div></div>
+
+<p>You can learn more about Taste Technologists at <a href="https://taste-technologists.github.io/">https://taste-technologists.github.io/</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

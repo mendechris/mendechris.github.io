@@ -1,0 +1,136 @@
+{
+  "basics": {
+    "name": "Christina Mende",
+    "label": "Student",
+    "picture": "https://github.com/mendechris.png",
+    "email": "cmende@hawaii.edu",
+    "phone": "808-600-9603",
+    "website": "https://mendechris.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall 2024. I'm eager to apply my technical skills and knowledge to make a meaningful impact in the world of technology.",
+    "location": {"postalCode": "96786", "city": "Wahiawa", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "mendechris", "url": "http://github.com/mendechris" },
+      { "network": "linkedin", "username": "mendechrism", "url": "http://linkedin.com/in/christina-mende" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Development" },
+    { "name": "Data Science" },
+    { "name": "Data Analysis" },
+    { "name": "Mathematics" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Ruby", "Meteor", "Bootstrap", "Python", "SQL", "R", "Tableau" ]
+    },
+    {
+      "name": "Version Control/Toolsets/OS",
+      "keywords": [ "Git/Github","Windows","MacOS", "g++", "IntelliJ", "React", "MongoDB", "MySQL Workbench", "SQLite", "Visual Studio Code", "RStudio", "Tableau", "Jupyter"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coursera",
+      "area": "Google Data Analytics",
+      "studyType": "Certificate",
+      "startDate": "2023-08-28",
+      "endDate": "Present",
+      "courses": ["Foundations: Data, Data, Everywhere", "Ask Questions to Make Data-Driven Decisions", "Prepare Data for Exploration", "Process Data from Dirty to Clean", "Analyze Data to Answer Questions", "Share Data Through the Art of Visualization", "Data Analysis with R Programming"
+      ]
+    },
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Fall, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2022-08-22",
+      "endDate": "Present",
+      "courses": ["ICS 111", "ICS 211", "ICS 212", "ICS 141", "ICS 241", "ICS 314", "ICS 311", "ICS 321"
+      ]
+    },
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Mathematics",
+      "studyType": "M.A.",
+      "startDate": "2014-08-25",
+      "endDate": "2016-12-17",
+      "courses": ["MATH 412", "MATH 413", "MATH 431", "MATH 432", "MATH 611", "MATH 631", "MATH 612", "MATH 644", "MATH 603", "MATH 649T", "MATH 633", "MATH 699"
+      ]
+    },
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Mathematics",
+      "studyType": "B.A.",
+      "startDate": "2013-08-25",
+      "endDate": "2013-05-11",
+      "courses": ["MATH 311", "MATH 402", "MATH 321", "MATH 403", "MATH 420", "MATH 302", "MATH 471", "MATH 331", "MATH 411", "MATH 480"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Leeward Community College",
+      "position": "Instructor",
+      "startDate": "2016-09-01",
+      "endDate": "2023-07-31",
+      "summary": "Mathematics Instructor",
+      "highlights": [
+        "Planned and implemented lessons in Mathematics according to Learning Outcomes",
+        "Applied various teaching aids to instruct and motivate students",
+        "Used learning assessments to regularly monitor student understanding and class concepts",
+        "Pi-Day Committee Co-Chair: A yearly event to promote interest in Mathematics and Pie."
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Graduate Teaching Assistant",
+      "startDate": "2014-08-01",
+      "endDate": "2016-07-31",
+      "summary": "Teaching Assistant for the Mathematics Department",
+      "highlights": [
+        "Checked assignments, proctored exams, and graded assignments according to university standards",
+        "Prepared lessons according to course learning outcomes to teach required material",
+        "Taught small groups of students (recitations) focused on specific parts of their corresponding class."
+        
+      ]
+    },
+    {
+      "company": "Leeward Community College",
+      "position": "Student Assistant",
+      "startDate": "2008-09",
+      "endDate": "2012-12",
+      "summary": "Mathematics tutor at Leeward CC's Math Lab",
+      "highlights": [
+        "Tutored students in Mathematics primarily from Pre-Algebra to Calculus IV",
+        "Created Math handouts and problem worksheets for student use",
+        "Helped implement and maintain a new login system using Excel",
+        "Nominated for Student Employee of the Year 2010, 2011, and 2012"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Master Student Marshal",
+      "date": "2016-12",
+      "awarder": "University of Hawaii",
+      "summary": "Honor for outstanding achievement as a graduate student. Student marshal leads the procession of Master degree candidates at the commencement ceremony."
+    },
+    {
+      "title": "Kern-Clark Memorial Award",
+      "date": "2013-05",
+      "awarder": "University of Hawaii Mathematics Department",
+      "summary": "Annual award for undergraduates whose performance in their mathematics classes has been outstanding."
+    },
+    {
+      "title": "Leeward Community College Chancellor’s Merit Scholarship",
+      "date": "2008-08",
+      "awarder": "Leeward Community College",
+      "summary": "For continuing Leeward CC students pursuing their first degree with a cumulative GPA of at least 3.5."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

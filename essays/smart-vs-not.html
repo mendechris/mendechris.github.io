@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Smart vs. Not-so-Smart Questions | Christina Mende | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mendechris.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Christina Mende | Professional Portfolio">
+    <meta property="og:url" content="https://mendechris.github.io/essays/smart-vs-not.html">
+    <meta property="og:title" content="Smart vs. Not-so-Smart Questions | Christina Mende | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mendechris.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Smart vs. Not-so-Smart Questions | Christina Mende | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Christina Mende</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="container py-4">
+  <h1 class="display-4">Smart vs. Not-so-Smart Questions</h1>
+  <span class="date">26 Jan 2023</span>
+  <hr>
+  <p><img width="500px" class="img-thumbnail" src="../essays/img/essay02/coffee_cup_holes.png" /></p>
+
+<p>Credit: <a href="https://xkcd.com/2658/">Randall Munroe at XKCD</a></p>
+
+<h2 id="the-goal">The goal</h2>
+<p>Most of the time when we ask a question, the goal is to get an answer. Of course, not every answer is helpful. If the only answer to a question was a useless one, there would be no point in asking the question in the first place.</p>
+
+<p>In the comic above we are presented with four legitimate answers, but which one is actually useful? As presented, the question is much too broad and doesn’t give any insight as to why the question is being asked. This just makes it more difficult for the reader to properly answer the question.</p>
+
+<p>While the coffee-cup question may be silly, it does force us to consider what makes a question good or smart. Anyone can ask a question; however, it takes some skill to ask a question that will receive a relevant answer.</p>
+
+<h2 id="getting-help">Getting Help</h2>
+<p>As a software engineer getting stuck on a task at some point is an inevitability, so it is important to be able to ask questions to get unstuck. Luckily for us, there is a spectacular resource known as StackOverflow: a vast community of developers who ask and answer programming-related questions. According to <a href="https://stackoverflow.co/">StackOverflow</a>, over 21 million questions have been asked. This begs the question, how many of those questions received relevant answers?</p>
+
+<p>I searched for examples of smart and not-so-smart questions to see what kind of responses they received.</p>
+
+<p>An example of a smart (though not perfect) question was from a user accessing weather information.
+Note that some of the code below has been truncated for brevity.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Question: Python - Accessing JSON element
+
+I am trying retrieve weather forecasting from DarkSky using their API with the code below. 
+I am interested only in the part of hourly forecasting data:
+
+url="https://api.darksky.net/forecast/api_key/33.972386,-84.231986"
+response = requests.get(url)
+data = response.json()
+data
+
+Here is the part of JSON data I get from data pull:
+
+{'latitude': 33.972386,
+ 'longitude': -84.231986,
+ 'timezone': 'America/New_York',
+ ... 
+ ...
+ }
+
+Now this is bit complex json file and I have tried using json_normalize on hourly part of json file:
+
+json_normalize(data['hourly'])
+
+but im getting the the response like this:
+
+        data    icon    summary
+0   [{'time': 1553050800, 'summary': 'Clear', 'ico...   clear-day   Clear 
+    throughout the day.
+
+Any idea how do I access the temperature and pressure on hourly data part? So i need to get time, temperature, 
+pressure and humidity for every hour available. Thank you
+
+
+</code></pre></div></div>
+
+<p><a href="https://stackoverflow.com/questions/55253260/python-accessing-json-element">View question on StackOverflow</a></p>
+
+<p>Here, the header could have been a bit more specific. For example, they could have written “Python - Accessing DarkSky API JSON element” This would be much less generic and direct others with similar questions to this topic. Furthermore, the user could have cleaned up the grammatical errors in the question.</p>
+
+<p>The user is courteous and does a great job of explaining the desired outcome. The question is explicitly stated. Additionally, they include all of the data that is pulled so that readers do not have to complete the request themselves. The user also shows what they have tried and the outcome of their attempt.</p>
+
+<p>The user subsequently received two answers to their question and commented that one of the answers directly solved their problem. This question highlights the good outcomes that can come from asking a smart question.</p>
+
+<h2 id="stack-overflow-cant-find-the-question">Stack Overflow Can’t Find the Question.</h2>
+<p>A recent example of a not-so-smart “question” is from a user asking for help on their Java program.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Question: I need help for a simple java task
+ 
+I am taking a java course online and I need a solution for one task. This is the condition:
+
+Write a program that tracks the average number of passengers per flight for each airline . Every day there are a certain number 
+of airlines that have flights . Until the " Finish " command is received, you receive the number of passengers per flight . 
+You need to calculate the average number of passengers per airline flight ( rounded to the smallest whole number ). 
+Login : Initially, the number of airlines is read from the console - an integer in the interval [1… 20] Then read for each 
+airline : • Airline name - text • " Finish " command is received, it reads : o Number of passengers per flight – an integer 
+in the range [1... 360] Output : After reading all the passengers of a given company, one line is printed on the 
+console : • "{ airline name }: { average number of passengers per flight } passengers." After all flights of all airlines 
+have taken off, one line is printed : • "{ the name of the airline with the most passengers per flight } has most 
+passengers per flight: { the average number of passengers per flight } "
+
+This is the input:
+
+3 WizzAir 180 230 100 Finish BulgariaAir 50 60 90 Finish Lufthansa 260 320 Finish
+
+This is the output: WizzAir: 170 passengers. BulgariaAir: 66 passengers. Lufthansa: 290 passengers. 
+Lufthansa has the most passengers per flight: 290
+
+This is my code:
+
+
+Scanner scanner = new Scanner(System.in);
+
+    int n = Integer.parseInt(scanner.nextLine());
+    String companyName = "";
+
+    for (int i = 0; i &lt; n; i++) {
+
+        String input = scanner.nextLine();
+        companyName = input;
+
+        double sum = 0;
+
+
+        while (true) {
+            input = scanner.nextLine();
+
+            if (input.equals("Finish")) {
+                System.out.printf("%s: %d passengers.%n", companyName, Math.round(sum / n));
+                sum = 0;
+                break;
+            }
+
+            int people = Integer.parseInt(input);
+            sum += people;
+        }
+
+
+    }
+
+
+Thank you for the help.
+</code></pre></div></div>
+
+<p><a href="https://stackoverflow.com/revisions/75189194/1">See Original Question at StackOverFlow</a></p>
+
+<p>There are several issues with the above post. The first noticeable issue is that the header is vague and doesn’t tell the reader the problem. It would have been better for the user to be more specific. Another issue is in the formatting of the post. The wall of text with odd bulleting makes the text very difficult to read and understand. Additionally, while the user did provide some code for their attempt, they did not include any explanation for the errors or issues they encountered. There was also a glaring problem: the user did not explicitly ask a question!</p>
+
+<p>At the time of this posting, the question had three downvotes, received no answers, and was marked closed due to lack of detail. A few commenters tried to gather more information in an attempt to help. One commenter stated, “You’ve posted broad requirements and unexplained code but have not yet asked a specific on-topic question. How is your current code misbehaving? What specifically are you confused or stuck on? Please <a href="https://stackoverflow.com/posts/75189194/edit">edit</a> and improve your post to help make it both easier to answer and more appropriate for this site. The <a href="https://stackoverflow.com/questions/how-to-ask">How to Ask</a> and <a href="http://meta.stackexchange.com/a/10812/162852">How do I ask and answer Homework questions</a> links can help guide you in this task.
+Also, start by fixing your question title. We already know that you “need help for a task”, why else would you be posting a question here? Your title should summarize your actual problem statement, not your plight.”</p>
+
+<p>The criticism and lack of relevant responses highlight the issues with this not-so-smart question.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Being able to ask smart questions to get relevant answers is an important skill for everyone. Knowing how and what to ask could make the difference in getting a helpful answer rather than a snarky reply or no answer at all. For a website like StackOverflow it is good practice to be courteous, make the question clear, and to explain/show your attempts at a solution. This effort shows respect for the community and increases the likelihood of receiving helpful answers.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

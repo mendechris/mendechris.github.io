@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Pokemon Weather App  | Christina Mende | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/mendechris.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Christina Mende | Professional Portfolio">
+    <meta property="og:url" content="https://mendechris.github.io/projects/pokeweather.html">
+    <meta property="og:title" content="Pokemon Weather App  | Christina Mende | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/mendechris.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Pokemon Weather App  | Christina Mende | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Christina Mende</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="container py-4">
+  <h1 class="display-4">Pokemon Weather App </h1>
+ <div class="text-center p-4">
+  <img width="200px" src="../img/projects/pw1.png" class="img-thumbnail" />
+  <img width="200px" src="../img/projects/pw2.png" class="img-thumbnail" />
+  <img width="200px" src="../img/projects/pw3.png" class="img-thumbnail" />
+</div>
+
+<p>STEM Warrior Hacks (Winter Dec 31, 2021 - Jan 2, 2022) is an international student-run hackathon open to anyone 13 years and older. It is a hands-on event which allows beginner coders to learn new skills and gain first-hand experience in programming in teams. This hackathon was open-themed in that teams could create any type of program. My team and I decided to create a fun app centered on our favorite game: Pokemon Go.</p>
+
+<p>For this project, I  was responsible for the backend (server-side) code. I used OpenWeatherMap API to access relevant weather data for each zip code . I also used PoGo API and PokeApi to retrieve information related to each Pokemon’s data such as type, move set, and stats.</p>
+
+<h2 id="what-i-learned">What I learned</h2>
+<p>Prior to this hackathon I had little-to-no experience with developing a web app. In order to contribute to this project, I learned basic HTML and CSS through CodeAcademy and Javascript through FreeCodeCamp.</p>
+
+<p>Here is some code that illustrates how we categorized weather type based on the ID retrieved by the OpenWeatherAPI:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      <span class="o">&lt;!--</span><span class="no">Gets</span> <span class="n">weather</span> <span class="no">ID</span> <span class="o">--&gt;</span>
+      <span class="o">&lt;</span><span class="sx">% weatherID </span><span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">pretty_generate</span><span class="p">(</span><span class="n">weather_json</span><span class="p">[</span><span class="s2">"weather"</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">"id"</span><span class="p">]).</span><span class="nf">to_i</span>  <span class="sx">%&gt;
+
+      &lt;!--Gets wind speed in mph --&gt;</span>
+      <span class="o">&lt;</span><span class="sx">% wind </span><span class="o">=</span> <span class="p">(</span><span class="n">weather_json</span><span class="p">[</span><span class="s2">"wind"</span><span class="p">][</span><span class="s2">"speed"</span><span class="p">]</span> <span class="o">*</span> <span class="mf">2.236936</span><span class="p">).</span><span class="nf">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="o">%&gt;</span>
+
+
+      <span class="o">&lt;!--</span> <span class="n">weather</span> <span class="no">ID</span> <span class="n">codes</span> <span class="n">that</span> <span class="n">correspond</span> <span class="n">to</span> <span class="n">weather</span> <span class="n">type</span> <span class="o">--&gt;</span>
+      <span class="o">&lt;</span><span class="sx">% weather_hash </span><span class="o">=</span> <span class="p">{[</span><span class="mi">200</span><span class="p">,</span><span class="mi">201</span><span class="p">,</span><span class="mi">202</span><span class="p">,</span><span class="mi">230</span><span class="p">,</span><span class="mi">231</span><span class="p">,</span><span class="mi">232</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">301</span><span class="p">,</span><span class="mi">302</span><span class="p">,</span><span class="mi">310</span><span class="p">,</span><span class="mi">311</span><span class="p">,</span><span class="mi">312</span><span class="p">,</span><span class="mi">313</span><span class="p">,</span><span class="mi">314</span><span class="p">,</span><span class="mi">321</span><span class="p">,</span><span class="mi">500</span><span class="p">,</span><span class="mi">501</span><span class="p">,</span><span class="mi">502</span><span class="p">,</span><span class="mi">503</span><span class="p">,</span><span class="mi">504</span><span class="p">,</span><span class="mi">511</span><span class="p">,</span><span class="mi">520</span><span class="p">,</span><span class="mi">521</span><span class="p">,</span><span class="mi">522</span><span class="p">,</span><span class="mi">531</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="s2">"Rainy"</span><span class="p">,[</span><span class="mi">600</span><span class="p">,</span><span class="mi">601</span><span class="p">,</span><span class="mi">602</span><span class="p">,</span><span class="mi">611</span><span class="p">,</span><span class="mi">612</span><span class="p">,</span><span class="mi">613</span><span class="p">,</span><span class="mi">615</span><span class="p">,</span><span class="mi">616</span><span class="p">,</span><span class="mi">620</span><span class="p">,</span><span class="mi">621</span><span class="p">,</span><span class="mi">622</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="s2">"Snow"</span><span class="p">,</span> <span class="p">[</span><span class="mi">800</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="s2">"Clear"</span><span class="p">,</span> <span class="p">[</span><span class="mi">804</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="s2">"Overcast"</span><span class="p">,[</span><span class="mi">801</span><span class="p">,</span><span class="mi">802</span><span class="p">,</span><span class="mi">803</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="s2">"Partly Cloudy"</span><span class="p">,[</span><span class="mi">701</span><span class="p">,</span><span class="mi">741</span><span class="p">]</span> <span class="o">=&gt;</span> <span class="s2">"Fog"</span><span class="p">}</span> <span class="o">%&gt;</span>
+
+      <span class="o">&lt;!--</span> <span class="n">matches</span> <span class="n">code</span> <span class="n">with</span> <span class="n">weather</span> <span class="n">type</span> <span class="n">to</span> <span class="n">set</span> <span class="n">current_weather</span> <span class="o">--&gt;</span>
+      <span class="o">&lt;</span><span class="sx">% current_weather </span><span class="o">=</span> <span class="s2">""</span> <span class="o">%&gt;</span>
+      <span class="o">&lt;%</span><span class="n">weather_hash</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">code</span><span class="p">,</span><span class="n">type</span><span class="o">|</span> <span class="sx">%&gt;
+        &lt;% current_weather = type if code.include?(weatherID) %&gt;</span>
+      <span class="o">&lt;</span><span class="sx">% end </span><span class="o">%&gt;</span>
+
+      <span class="o">&lt;!--</span> <span class="no">Wind</span> <span class="n">takes</span> <span class="n">precedence</span> <span class="n">over</span> <span class="n">these</span> <span class="o">--&gt;</span>  
+      <span class="o">&lt;</span><span class="sx">% if </span><span class="p">((</span><span class="n">current_weather</span> <span class="o">==</span> <span class="s2">"Clear"</span> <span class="o">||</span> <span class="n">current_weather</span> <span class="o">==</span> <span class="s2">"Overcast"</span> <span class="o">||</span> <span class="n">current_weather</span> <span class="o">==</span> <span class="s2">"Partly Cloudy"</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">wind</span> <span class="o">&gt;=</span> <span class="mi">55</span><span class="p">)</span> <span class="o">%&gt;</span>
+        <span class="o">&lt;</span><span class="sx">% current_weather </span><span class="o">=</span> <span class="s2">"Windy"</span> <span class="o">%&gt;</span>
+      <span class="o">&lt;</span><span class="sx">% end </span><span class="o">%&gt;</span>
+</code></pre></div></div>
+
+<p>You can learn more about this hackathon submission at <a href="https://devpost.com/software/pokemon-weather-app">Devpost</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
