@@ -22,11 +22,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Ruby", "Meteor", "Bootstrap", "Python", "SQL" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Ruby", "Meteor", "Bootstrap", "Python", "SQL", "R", "Tableau" ]
     },
     {
       "name": "Version Control/Toolsets/OS",
-      "keywords": [ "Git/Github","Windows","MacOS", "g++", "IntelliJ", "React", "MongoDB", "MySQL Workbench", "SQLite", "Visual Studio Code" ]
+      "keywords": [ "Git/Github","Windows","MacOS", "g++", "IntelliJ", "React", "MongoDB", "MySQL Workbench", "SQLite", "Visual Studio Code", "RStudio", "Tableau", "Jupyter"]
     }
   ],
   "education": [
